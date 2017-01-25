@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Valkyrie</id>
+    <version>$version$</version>
+    <title>Valkyrie</title>
+    <authors>James Craig</authors>
+    <owners>James Craig</owners>
+    <licenseUrl>https://github.com/JaCraig/Valkyrie/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/JaCraig/Valkyrie</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <copyright>Copyright 2017</copyright>
+    <tags>Validation DataAnnotation</tags>
+    <dependencies>
+      <dependency id="NETStandard.Library" version="1.6.1" />
+      <dependency id="System.ComponentModel.Annotations" version="4.3.0" />
+      <dependency id="BigBook" version="1.0.7" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\netstandard1.6\Valkyrie.dll" target="lib\netstandard1.6\Valkyrie.dll" />
+    <file src="bin\Release\netstandard1.6\Valkyrie.xml" target="lib\netstandard1.6\Valkyrie.xml" />
+  </files>
+</package>

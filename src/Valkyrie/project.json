@@ -1,0 +1,26 @@
+﻿{
+  "title": "Valkyrie",
+  "version": "1.0.0",
+  "authors": [ "James Craig" ],
+  "description": "Valkyrie is a simple validation library that adds a number of DataAnnotations.",
+  "packOptions": {
+    "owners": [ "James Craig" ],
+    "summary": "Valkyrie is a simple validation library that adds a number of DataAnnotations.",
+    "projectUrl": "https://github.com/JaCraig/Valkyrie",
+    "licenseUrl": "https://github.com/JaCraig/Valkyrie/blob/master/LICENSE",
+    "tags": [ "Validation", "DataAnnotation" ]
+  },
+  "dependencies": {
+    "NETStandard.Library": "1.6.1",
+    "System.ComponentModel.Annotations": "4.3.0",
+    "BigBook": "1.0.7"
+  },
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  },
+  "buildOptions": {
+    "xmlDoc": true
+  }
+}
