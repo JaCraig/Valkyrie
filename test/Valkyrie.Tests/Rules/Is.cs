@@ -41,11 +41,13 @@ namespace Valkyrie.Tests.Rules
         [Fact]
         public void Test()
         {
-            var Temp = new IsClass();
-            Temp.ItemA = "4012888888881881";
-            Temp.ItemB = "1234.123";
-            Temp.ItemC = "http://www.google.com";
-            Temp.ItemD = "1234";
+            var Temp = new IsClass
+            {
+                ItemA = "4012888888881881",
+                ItemB = "1234.123",
+                ItemC = "http://www.google.com",
+                ItemD = "1234"
+            };
             Temp.Validate();
             Temp.ItemA = "1234567890123";
             Temp.ItemB = "ASD1234";

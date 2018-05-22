@@ -57,7 +57,7 @@ namespace Valkyrie
             if (value == null)
                 return ValidationResult.Success;
             var ValueList = value as IEnumerable;
-            return ValueList != null && ValueList.GetEnumerator().MoveNext() ? new ValidationResult(FormatErrorMessage(validationContext.DisplayName)) : ValidationResult.Success;
+            return ValueList?.GetEnumerator().MoveNext() == true ? new ValidationResult(FormatErrorMessage(validationContext.DisplayName)) : ValidationResult.Success;
         }
     }
 }

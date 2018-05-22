@@ -27,9 +27,11 @@ namespace Valkyrie.Tests.Rules
         [Fact]
         public void Test()
         {
-            var Temp = new ClassA();
-            Temp.ItemA = 1;
-            Temp.ItemB = DateTime.Now;
+            var Temp = new ClassA
+            {
+                ItemA = 1,
+                ItemB = DateTime.Now
+            };
             Temp.Validate();
             Temp.ItemA = 0;
             Temp.ItemB = new DateTime(1800, 1, 1);

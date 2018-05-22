@@ -17,7 +17,6 @@ limitations under the License.
 using BigBook;
 using BigBook.Comparison;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 
@@ -45,12 +44,12 @@ namespace Valkyrie
         /// <summary>
         /// Max value to compare to
         /// </summary>
-        public object Max { get; private set; }
+        public object Max { get; }
 
         /// <summary>
         /// Min value to compare to
         /// </summary>
-        public object Min { get; private set; }
+        public object Min { get; }
 
         /// <summary>
         /// Formats the error message

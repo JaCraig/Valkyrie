@@ -43,7 +43,7 @@ namespace Valkyrie
         /// <summary>
         /// Value to compare to
         /// </summary>
-        public IComparable Value { get; private set; }
+        public IComparable Value { get; }
 
         /// <summary>
         /// Formats the error message

@@ -46,12 +46,12 @@ namespace Valkyrie
         /// <summary>
         /// Comparison type
         /// </summary>
-        public ComparisonType Type { get; private set; }
+        public ComparisonType Type { get; }
 
         /// <summary>
         /// Value to compare to
         /// </summary>
-        public object Value { get; private set; }
+        public object Value { get; }
 
         /// <summary>
         /// Formats the error message

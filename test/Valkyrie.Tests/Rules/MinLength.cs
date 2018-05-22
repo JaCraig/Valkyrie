@@ -32,8 +32,10 @@ namespace Valkyrie.Tests.Rules
         [Fact]
         public void Test()
         {
-            var Temp = new MinLengthClass();
-            Temp.ItemA = "Test";
+            var Temp = new MinLengthClass
+            {
+                ItemA = "Test"
+            };
             Temp.Validate();
             Temp.ItemA = "Tes";
             Assert.Throws<ValidationException>(() => Temp.Validate());

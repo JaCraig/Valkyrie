@@ -47,12 +47,12 @@ namespace Valkyrie
         /// <summary>
         /// Property to compare to
         /// </summary>
-        public string PropertyName { get; private set; }
+        public string PropertyName { get; }
 
         /// <summary>
         /// Comparison type
         /// </summary>
-        public ComparisonType Type { get; private set; }
+        public ComparisonType Type { get; }
 
         /// <summary>
         /// Formats the error message

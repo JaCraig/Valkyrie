@@ -43,7 +43,7 @@ namespace Valkyrie
         /// <summary>
         /// Value to compare to
         /// </summary>
-        public object Value { get; private set; }
+        public object Value { get; }
 
         /// <summary>
         /// Formats the error message

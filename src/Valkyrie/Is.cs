@@ -42,7 +42,7 @@ namespace Valkyrie
         /// <summary>
         /// Type of validation to do
         /// </summary>
-        public IsValid Type { get; private set; }
+        public IsValid Type { get; }
 
         /// <summary>
         /// Formats the error message

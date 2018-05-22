@@ -29,7 +29,7 @@ namespace Valkyrie.Tests.Extensions
             var dog = new Dog { Age = -1, Name = "Jim" };
             var validationResults = new List<ValidationResult>();
             Assert.False(dog.TryValidate(validationResults));
-            Assert.Equal(1, validationResults.Count);
+            Assert.Single(validationResults);
             Assert.Throws<ValidationException>(() => dog.Validate());
         }
 

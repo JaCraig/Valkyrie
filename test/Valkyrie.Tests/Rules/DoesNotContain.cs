@@ -16,7 +16,6 @@ limitations under the License.
 
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using Valkyrie;
 
 using Xunit;
 
@@ -33,10 +32,14 @@ namespace Valkyrie.Tests.Rules
         [Fact]
         public void Test()
         {
-            var Temp = new DoesNotContainClass();
-            Temp.ItemA = new List<string>();
-            Temp.ItemA.Add("A");
-            Temp.ItemA.Add("B");
+            var Temp = new DoesNotContainClass
+            {
+                ItemA = new List<string>
+            {
+                "A",
+                "B"
+            }
+            };
             Assert.Throws<ValidationException>(() => Temp.Validate());
             Temp.ItemA.Clear();
             Temp.ItemA.Add("B");

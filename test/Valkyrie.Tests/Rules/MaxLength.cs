@@ -32,8 +32,10 @@ namespace Valkyrie.Tests.Rules
         [Fact]
         public void Test()
         {
-            var Temp = new MaxLengthClass();
-            Temp.ItemA = "Test";
+            var Temp = new MaxLengthClass
+            {
+                ItemA = "Test"
+            };
             Temp.Validate();
             Temp.ItemA = "Testing";
             Assert.Throws<ValidationException>(() => Temp.Validate());

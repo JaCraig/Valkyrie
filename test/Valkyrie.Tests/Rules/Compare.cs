@@ -51,14 +51,16 @@ namespace Valkyrie.Tests.Rules
         [Fact]
         public void Test()
         {
-            var Temp = new CompareClass();
-            Temp.ItemA = 1;
-            Temp.ItemB = 2.1f;
-            Temp.ItemC = new DateTime(1900, 1, 1);
-            Temp.ItemD = "a";
-            Temp.ItemE = -1;
-            Temp.ItemF = DateTime.Now;
-            Temp.NaNTest = 1;
+            var Temp = new CompareClass
+            {
+                ItemA = 1,
+                ItemB = 2.1f,
+                ItemC = new DateTime(1900, 1, 1),
+                ItemD = "a",
+                ItemE = -1,
+                ItemF = DateTime.Now,
+                NaNTest = 1
+            };
             Temp.Validate();
             Temp.ItemA = 2;
             Temp.NaNTest = double.NaN;

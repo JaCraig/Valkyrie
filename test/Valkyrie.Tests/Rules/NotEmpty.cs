@@ -33,10 +33,14 @@ namespace Valkyrie.Tests.Rules
         [Fact]
         public void Test()
         {
-            var Temp = new NotEmptyClass();
-            Temp.ItemA = new List<string>();
-            Temp.ItemA.Add("A");
-            Temp.ItemA.Add("B");
+            var Temp = new NotEmptyClass
+            {
+                ItemA = new List<string>
+            {
+                "A",
+                "B"
+            }
+            };
             Temp.Validate();
             Temp.ItemA.Clear();
             Assert.Throws<ValidationException>(() => Temp.Validate());

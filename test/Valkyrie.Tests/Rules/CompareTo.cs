@@ -15,7 +15,6 @@ limitations under the License.
 */
 
 using System.ComponentModel.DataAnnotations;
-using Valkyrie;
 
 using Xunit;
 
@@ -34,9 +33,11 @@ namespace Valkyrie.Tests.Rules
         [Fact]
         public void Test()
         {
-            var Temp = new CompareToClass();
-            Temp.ItemA = 1;
-            Temp.ItemB = 1;
+            var Temp = new CompareToClass
+            {
+                ItemA = 1,
+                ItemB = 1
+            };
             Temp.Validate();
             Temp.ItemA = 2;
             Assert.Throws<ValidationException>(() => Temp.Validate());

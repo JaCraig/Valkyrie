@@ -45,12 +45,12 @@ namespace Valkyrie
         /// <summary>
         /// Max value to compare to
         /// </summary>
-        public IComparable Max { get; private set; }
+        public IComparable Max { get; }
 
         /// <summary>
         /// Min value to compare to
         /// </summary>
-        public IComparable Min { get; private set; }
+        public IComparable Min { get; }
 
         /// <summary>
         /// Formats the error message

@@ -32,8 +32,10 @@ namespace Valkyrie.Tests.Rules
         [Fact]
         public void Test()
         {
-            var Temp = new NotBetweenClass();
-            Temp.ItemA = 0;
+            var Temp = new NotBetweenClass
+            {
+                ItemA = 0
+            };
             Temp.Validate();
             Temp.ItemA = 1;
             Assert.Throws<ValidationException>(() => Temp.Validate());

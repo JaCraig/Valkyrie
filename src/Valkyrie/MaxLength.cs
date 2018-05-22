@@ -41,7 +41,7 @@ namespace Valkyrie
         /// <summary>
         /// Value to compare to
         /// </summary>
-        public long Value { get; private set; }
+        public long Value { get; }
 
         /// <summary>
         /// Formats the error message
