@@ -30,6 +30,22 @@ namespace Valkyrie.Tests.Rules
     public class ContainsTests
     {
         [Fact]
+        public void IsValid()
+        {
+            var TestObject = new ContainsAttribute('A');
+            Assert.True(TestObject.IsValid("ASDFG"));
+            Assert.False(TestObject.IsValid("SDFG"));
+        }
+
+        [Fact]
+        public void IsValidString()
+        {
+            var TestObject = new ContainsAttribute("ASDF");
+            Assert.True(TestObject.IsValid("ASDFG"));
+            Assert.False(TestObject.IsValid("SDFG"));
+        }
+
+        [Fact]
         public void Test()
         {
             var Temp = new ClassC

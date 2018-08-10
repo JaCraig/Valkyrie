@@ -76,7 +76,7 @@ namespace Valkyrie
             foreach (IComparable Item in ValueList)
             {
                 if (Comparer.Equals(Item, ValueTemp))
-                    return new ValidationResult(FormatErrorMessage(validationContext.DisplayName));
+                    return new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? ""));
             }
             return ValidationResult.Success;
         }

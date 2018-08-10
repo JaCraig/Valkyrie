@@ -16,7 +16,6 @@ limitations under the License.
 
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using Valkyrie;
 
 using Xunit;
 

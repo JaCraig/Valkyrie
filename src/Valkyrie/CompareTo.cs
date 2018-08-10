@@ -17,11 +17,8 @@ limitations under the License.
 using BigBook;
 using BigBook.Comparison;
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Globalization;
-using System.Reflection;
 
 namespace Valkyrie
 {
@@ -102,26 +99,26 @@ namespace Valkyrie
         {
             var Tempvalue = value as IComparable;
             var Comparer = new GenericComparer<IComparable>();
-            var ComparisonValue = (IComparable)validationContext.ObjectType.GetProperty(PropertyName).GetValue(validationContext.ObjectInstance, null).To<object>(value.GetType());
+            var ComparisonValue = (IComparable)validationContext?.ObjectType?.GetProperty(PropertyName)?.GetValue(validationContext?.ObjectInstance, null)?.To<object>(value.GetType());
             switch (Type)
             {
                 case ComparisonType.Equal:
-                    return Comparer.Compare(Tempvalue, ComparisonValue) == 0 ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext.DisplayName));
+                    return Comparer.Compare(Tempvalue, ComparisonValue) == 0 ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? ""));
 
                 case ComparisonType.NotEqual:
-                    return Comparer.Compare(Tempvalue, ComparisonValue) != 0 ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext.DisplayName));
+                    return Comparer.Compare(Tempvalue, ComparisonValue) != 0 ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? ""));
 
                 case ComparisonType.GreaterThan:
-                    return Comparer.Compare(Tempvalue, ComparisonValue) > 0 ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext.DisplayName));
+                    return Comparer.Compare(Tempvalue, ComparisonValue) > 0 ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? ""));
 
                 case ComparisonType.GreaterThanOrEqual:
-                    return Comparer.Compare(Tempvalue, ComparisonValue) >= 0 ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext.DisplayName));
+                    return Comparer.Compare(Tempvalue, ComparisonValue) >= 0 ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? ""));
 
                 case ComparisonType.LessThan:
-                    return Comparer.Compare(Tempvalue, ComparisonValue) < 0 ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext.DisplayName));
+                    return Comparer.Compare(Tempvalue, ComparisonValue) < 0 ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? ""));
 
                 case ComparisonType.LessThanOrEqual:
-                    return Comparer.Compare(Tempvalue, ComparisonValue) <= 0 ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext.DisplayName));
+                    return Comparer.Compare(Tempvalue, ComparisonValue) <= 0 ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? ""));
 
                 default:
                     return ValidationResult.Success;

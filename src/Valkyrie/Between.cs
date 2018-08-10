@@ -75,7 +75,7 @@ namespace Valkyrie
             var TempValue = value as IComparable;
             return (Comparer.Compare(MaxValue, TempValue) < 0
                     || Comparer.Compare(TempValue, MinValue) < 0) ?
-                new ValidationResult(FormatErrorMessage(validationContext.DisplayName)) :
+                new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? "")) :
                 ValidationResult.Success;
         }
     }

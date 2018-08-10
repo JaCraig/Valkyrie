@@ -48,7 +48,7 @@ namespace Valkyrie
             var Results = new List<ValidationResult>();
             if (!value.TryValidate(Results))
             {
-                return new ValidationResult(string.Format(CultureInfo.InvariantCulture, ErrorMessageString, validationContext.DisplayName, Results.ForEach(x => x.ErrorMessage).ToString(x => x, System.Environment.NewLine)));
+                return new ValidationResult(string.Format(CultureInfo.InvariantCulture, ErrorMessageString, validationContext?.DisplayName ?? "", Results.ForEach(x => x.ErrorMessage).ToString(x => x, System.Environment.NewLine)));
             }
             return ValidationResult.Success;
         }

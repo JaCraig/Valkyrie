@@ -17,7 +17,6 @@ limitations under the License.
 using BigBook;
 using BigBook.Comparison;
 using System;
-using System.Collections;
 using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 
@@ -76,7 +75,7 @@ namespace Valkyrie
             var TempValue = value as IComparable;
             return (Comparer.Compare(MaxValue, TempValue) >= 0
                     && Comparer.Compare(TempValue, MinValue) >= 0) ?
-                new ValidationResult(FormatErrorMessage(validationContext.DisplayName)) :
+                new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? "")) :
                 ValidationResult.Success;
         }
     }

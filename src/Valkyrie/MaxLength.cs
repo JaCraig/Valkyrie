@@ -70,7 +70,7 @@ namespace Valkyrie
             {
                 ++Count;
                 if (Count > Value)
-                    return new ValidationResult(FormatErrorMessage(validationContext.DisplayName));
+                    return new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? ""));
             }
             return ValidationResult.Success;
         }

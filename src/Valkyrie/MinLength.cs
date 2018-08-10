@@ -63,7 +63,7 @@ namespace Valkyrie
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
             if (value == null)
-                return new ValidationResult(FormatErrorMessage(validationContext.DisplayName));
+                return new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? ""));
             var ValueList = value as IEnumerable;
             long Count = 0;
             foreach (object Item in ValueList)
@@ -72,7 +72,7 @@ namespace Valkyrie
                 if (Count >= Value)
                     return ValidationResult.Success;
             }
-            return new ValidationResult(FormatErrorMessage(validationContext.DisplayName));
+            return new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? ""));
         }
     }
 }

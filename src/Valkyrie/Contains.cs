@@ -64,21 +64,30 @@ namespace Valkyrie
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
             if (value == null)
-                return new ValidationResult(FormatErrorMessage(validationContext.DisplayName));
+                return new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? ""));
             var Comparer = new GenericEqualityComparer<IComparable>();
-            var ValueList = value as IEnumerable;
-            IComparable ValueTemp = 0;
-            foreach (IComparable Item in ValueList)
+            if (value is string StringValue
+                && Value is string ContainsStringValue)
             {
-                ValueTemp = (IComparable)Value.To<object>(Item.GetType());
-                break;
-            }
-            foreach (IComparable Item in ValueList)
-            {
-                if (Comparer.Equals(Item, ValueTemp))
+                if (StringValue.Contains(ContainsStringValue))
                     return ValidationResult.Success;
             }
-            return new ValidationResult(FormatErrorMessage(validationContext.DisplayName));
+            else
+            {
+                var ValueList = value as IEnumerable;
+                IComparable ValueTemp = 0;
+                foreach (IComparable Item in ValueList)
+                {
+                    ValueTemp = (IComparable)Value.To<object>(Item.GetType());
+                    break;
+                }
+                foreach (IComparable Item in ValueList)
+                {
+                    if (Comparer.Equals(Item, ValueTemp))
+                        return ValidationResult.Success;
+                }
+            }
+            return new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? ""));
         }
     }
 }
