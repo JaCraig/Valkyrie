@@ -16,7 +16,7 @@
     <PackageId>Valkyrie</PackageId>
     <PackageTags>Validation;DataAnnotation</PackageTags>
     <PackageProjectUrl>https://github.com/JaCraig/Valkyrie</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/JaCraig/Valkyrie/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
@@ -26,7 +26,7 @@
 
   <ItemGroup>
     <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
-    <PackageReference Include="BigBook" Version="2.1.4" />
+    <PackageReference Include="BigBook" Version="2.1.7" />
   </ItemGroup>
 
 </Project>

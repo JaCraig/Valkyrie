@@ -31,8 +31,8 @@ namespace Valkyrie
         /// <summary>
         /// Constructor
         /// </summary>
-        /// <param name="Max">Max value</param>
         /// <param name="Min">Min value</param>
+        /// <param name="Max">Max value</param>
         /// <param name="ErrorMessage">Error message</param>
         public BetweenAttribute(object Min, object Max, string ErrorMessage = "")
             : base(string.IsNullOrEmpty(ErrorMessage) ? "{0} is not between {1} and {2}" : ErrorMessage)
