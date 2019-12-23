@@ -26,14 +26,14 @@ namespace Valkyrie
     /// Cascade attribute
     /// </summary>
     [AttributeUsage(AttributeTargets.Property, Inherited = true, AllowMultiple = false)]
-    public class CascadeAttribute : ValidationAttribute
+    public sealed class CascadeAttribute : ValidationAttribute
     {
         /// <summary>
         /// Constructor
         /// </summary>
         /// <param name="ErrorMessage">Error message</param>
         public CascadeAttribute(string ErrorMessage = "")
-            : base(string.IsNullOrEmpty(ErrorMessage) ? "The following errors have occurred on property {0}:" + System.Environment.NewLine + "{1}" : ErrorMessage)
+            : base(string.IsNullOrEmpty(ErrorMessage) ? "The following errors have occurred on property {0}:" + Environment.NewLine + "{1}" : ErrorMessage)
         {
         }
 
@@ -48,7 +48,7 @@ namespace Valkyrie
             var Results = new List<ValidationResult>();
             if (!value.TryValidate(Results))
             {
-                return new ValidationResult(string.Format(CultureInfo.InvariantCulture, ErrorMessageString, validationContext?.DisplayName ?? "", Results.ForEach(x => x.ErrorMessage).ToString(x => x, System.Environment.NewLine)));
+                return new ValidationResult(string.Format(CultureInfo.InvariantCulture, ErrorMessageString, validationContext?.DisplayName ?? "", Results.ForEach(x => x.ErrorMessage).ToString(x => x, Environment.NewLine)));
             }
             return ValidationResult.Success;
         }

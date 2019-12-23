@@ -26,7 +26,7 @@ namespace Valkyrie
     /// Is attribute
     /// </summary>
     [AttributeUsage(AttributeTargets.Property, Inherited = true, AllowMultiple = false)]
-    public class IsAttribute : ValidationAttribute
+    public sealed class IsAttribute : ValidationAttribute
     {
         /// <summary>
         /// Constructor
@@ -83,22 +83,20 @@ namespace Valkyrie
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
             var Tempvalue = value as string;
-            switch (Type)
+            if (string.IsNullOrEmpty(Tempvalue))
+                return new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? ""));
+            return Type switch
             {
-                case Valkyrie.IsValid.CreditCard:
-                    return Tempvalue.Is(StringCompare.CreditCard) ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? ""));
+                Valkyrie.IsValid.CreditCard => Tempvalue.Is(StringCompare.CreditCard) ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? "")),
 
-                case Valkyrie.IsValid.Decimal:
-                    return Regex.IsMatch(Tempvalue, @"^(\d+)+(\.\d+)?$|^(\d+)?(\.\d+)+$") ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? ""));
+                Valkyrie.IsValid.Decimal => Regex.IsMatch(Tempvalue, @"^(\d+)+(\.\d+)?$|^(\d+)?(\.\d+)+$") ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? "")),
 
-                case Valkyrie.IsValid.Domain:
-                    return Regex.IsMatch(Tempvalue, @"^(http|https|ftp)://([a-zA-Z0-9_-]*(?:\.[a-zA-Z0-9_-]*)+):?([0-9]+)?/?") ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? ""));
+                Valkyrie.IsValid.Domain => Regex.IsMatch(Tempvalue, @"^(http|https|ftp)://([a-zA-Z0-9_-]*(?:\.[a-zA-Z0-9_-]*)+):?([0-9]+)?/?") ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? "")),
 
-                case Valkyrie.IsValid.Integer:
-                    return Regex.IsMatch(Tempvalue, @"^\d+$") ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? ""));
-            }
+                Valkyrie.IsValid.Integer => Regex.IsMatch(Tempvalue, @"^\d+$") ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? "")),
 
-            return ValidationResult.Success;
+                _ => ValidationResult.Success,
+            };
         }
     }
 }

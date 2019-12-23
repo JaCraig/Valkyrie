@@ -26,6 +26,11 @@ namespace Valkyrie.Tests.Rules
         public int ItemA { get; set; }
 
         public int ItemB { get; set; }
+
+        public object ObjectProp { get; set; }
+
+        [CompareTo("ObjectProp", ComparisonType.Same)]
+        public object ObjectProp2 { get; set; }
     }
 
     public class CompareToTests
@@ -38,7 +43,13 @@ namespace Valkyrie.Tests.Rules
                 ItemA = 1,
                 ItemB = 1
             };
+            Temp.ObjectProp = Temp.ObjectProp2 = new object();
             Temp.Validate();
+            Temp.ObjectProp = Temp.ObjectProp2 = null;
+            Temp.Validate();
+            Temp.ObjectProp = new object();
+            Assert.Throws<ValidationException>(() => Temp.Validate());
+            Temp.ObjectProp = null;
             Temp.ItemA = 2;
             Assert.Throws<ValidationException>(() => Temp.Validate());
         }

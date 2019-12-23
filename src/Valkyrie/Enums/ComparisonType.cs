@@ -49,6 +49,11 @@ namespace Valkyrie
         /// <summary>
         /// Less than or equal
         /// </summary>
-        LessThanOrEqual
+        LessThanOrEqual,
+
+        /// <summary>
+        /// The same reference
+        /// </summary>
+        Same
     }
 }

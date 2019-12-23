@@ -26,8 +26,8 @@ namespace Valkyrie
     /// <summary>
     /// Does not contain attribute
     /// </summary>
-    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1019:DefineAccessorsForAttributeArguments"), AttributeUsage(AttributeTargets.Property, Inherited = true, AllowMultiple = false)]
-    public class DoesNotContainAttribute : ValidationAttribute
+    [AttributeUsage(AttributeTargets.Property, Inherited = true, AllowMultiple = false)]
+    public sealed class DoesNotContainAttribute : ValidationAttribute
     {
         /// <summary>
         /// Constructor
@@ -63,19 +63,20 @@ namespace Valkyrie
         /// <returns>The validation result</returns>
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
-            if (value == null)
+            if (value is null)
                 return ValidationResult.Success;
             var Comparer = new GenericEqualityComparer<IComparable>();
-            var ValueList = value as IEnumerable;
-            IComparable ValueTemp = 0;
+            if (!(value is IEnumerable ValueList))
+                return ValidationResult.Success;
+            IComparable? ValueTemp = 0;
             foreach (IComparable Item in ValueList)
             {
-                ValueTemp = (IComparable)Value.To<object>(Item.GetType());
+                ValueTemp = Value.To<object>(Item.GetType()) as IComparable;
                 break;
             }
             foreach (IComparable Item in ValueList)
             {
-                if (Comparer.Equals(Item, ValueTemp))
+                if (Comparer.Equals(Item, ValueTemp!))
                     return new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? ""));
             }
             return ValidationResult.Success;

@@ -43,6 +43,9 @@ namespace Valkyrie.Tests.Rules
 
         [Valkyrie.Compare(double.NaN, ComparisonType.NotEqual)]
         public double NaNTest { get; set; }
+
+        [Valkyrie.Compare(null, ComparisonType.Same)]
+        public object NullProp { get; set; }
     }
 
     public class CompareTests

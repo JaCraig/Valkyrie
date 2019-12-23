@@ -27,7 +27,7 @@ namespace Valkyrie
     /// Contains attribute
     /// </summary>
     [AttributeUsage(AttributeTargets.Property, Inherited = true, AllowMultiple = false)]
-    public class ContainsAttribute : ValidationAttribute
+    public sealed class ContainsAttribute : ValidationAttribute
     {
         /// <summary>
         /// Constructor
@@ -74,16 +74,17 @@ namespace Valkyrie
             }
             else
             {
-                var ValueList = value as IEnumerable;
-                IComparable ValueTemp = 0;
+                if (!(value is IEnumerable ValueList))
+                    return new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? ""));
+                IComparable? ValueTemp = 0;
                 foreach (IComparable Item in ValueList)
                 {
-                    ValueTemp = (IComparable)Value.To<object>(Item.GetType());
+                    ValueTemp = Value.To<object>(Item.GetType()) as IComparable;
                     break;
                 }
                 foreach (IComparable Item in ValueList)
                 {
-                    if (Comparer.Equals(Item, ValueTemp))
+                    if (Comparer.Equals(Item, ValueTemp!))
                         return ValidationResult.Success;
                 }
             }

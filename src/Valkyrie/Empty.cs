@@ -25,7 +25,7 @@ namespace Valkyrie
     /// Empty attribute
     /// </summary>
     [AttributeUsage(AttributeTargets.Property, Inherited = true, AllowMultiple = false)]
-    public class EmptyAttribute : ValidationAttribute
+    public sealed class EmptyAttribute : ValidationAttribute
     {
         /// <summary>
         /// Constructor

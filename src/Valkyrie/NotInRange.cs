@@ -25,8 +25,8 @@ namespace Valkyrie
     /// <summary>
     /// Not in range attribute
     /// </summary>
-    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1019:DefineAccessorsForAttributeArguments"), AttributeUsage(AttributeTargets.Property, Inherited = true, AllowMultiple = false)]
-    public class NotInRangeAttribute : ValidationAttribute
+    [AttributeUsage(AttributeTargets.Property, Inherited = true, AllowMultiple = false)]
+    public sealed class NotInRangeAttribute : ValidationAttribute
     {
         /// <summary>
         /// Constructor
@@ -70,11 +70,11 @@ namespace Valkyrie
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
             var Comparer = new GenericComparer<IComparable>();
-            var MaxValue = (IComparable)Max.To<object>(value.GetType());
-            var MinValue = (IComparable)Min.To<object>(value.GetType());
+            var MaxValue = Max.To<object>(value.GetType()) as IComparable;
+            var MinValue = Min.To<object>(value.GetType()) as IComparable;
             var TempValue = value as IComparable;
-            return (Comparer.Compare(MaxValue, TempValue) >= 0
-                    && Comparer.Compare(TempValue, MinValue) >= 0) ?
+            return (Comparer.Compare(MaxValue!, TempValue!) >= 0
+                    && Comparer.Compare(TempValue!, MinValue!) >= 0) ?
                 new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? "")) :
                 ValidationResult.Success;
         }

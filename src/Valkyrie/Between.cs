@@ -26,7 +26,7 @@ namespace Valkyrie
     /// Between attribute
     /// </summary>
     [AttributeUsage(AttributeTargets.Property, Inherited = true, AllowMultiple = false)]
-    public class BetweenAttribute : ValidationAttribute
+    public sealed class BetweenAttribute : ValidationAttribute
     {
         /// <summary>
         /// Constructor
@@ -70,11 +70,11 @@ namespace Valkyrie
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
             var Comparer = new GenericComparer<IComparable>();
-            var MaxValue = (IComparable)Max.To<object>(value.GetType());
-            var MinValue = (IComparable)Min.To<object>(value.GetType());
+            var MaxValue = Max.To<object>(value.GetType()) as IComparable;
+            var MinValue = Min.To<object>(value.GetType()) as IComparable;
             var TempValue = value as IComparable;
-            return (Comparer.Compare(MaxValue, TempValue) < 0
-                    || Comparer.Compare(TempValue, MinValue) < 0) ?
+            return (Comparer.Compare(MaxValue!, TempValue!) < 0
+                    || Comparer.Compare(TempValue!, MinValue!) < 0) ?
                 new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? "")) :
                 ValidationResult.Success;
         }

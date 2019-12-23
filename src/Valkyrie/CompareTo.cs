@@ -26,7 +26,7 @@ namespace Valkyrie
     /// CompareTo attribute
     /// </summary>
     [AttributeUsage(AttributeTargets.Property, Inherited = true, AllowMultiple = false)]
-    public class CompareToAttribute : ValidationAttribute
+    public sealed class CompareToAttribute : ValidationAttribute
     {
         /// <summary>
         /// Constructor
@@ -98,31 +98,27 @@ namespace Valkyrie
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
             var Tempvalue = value as IComparable;
+            var InitialComparisonValue = validationContext?.ObjectType?.GetProperty(PropertyName)?.GetValue(validationContext?.ObjectInstance, null);
             var Comparer = new GenericComparer<IComparable>();
-            var ComparisonValue = (IComparable)validationContext?.ObjectType?.GetProperty(PropertyName)?.GetValue(validationContext?.ObjectInstance, null)?.To<object>(value.GetType());
-            switch (Type)
+            var ComparisonValue = InitialComparisonValue?.To<object>(value?.GetType() ?? typeof(object)) as IComparable;
+            return Type switch
             {
-                case ComparisonType.Equal:
-                    return Comparer.Compare(Tempvalue, ComparisonValue) == 0 ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? ""));
+                ComparisonType.Same => ReferenceEquals(value, InitialComparisonValue) ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? "")),
 
-                case ComparisonType.NotEqual:
-                    return Comparer.Compare(Tempvalue, ComparisonValue) != 0 ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? ""));
+                ComparisonType.Equal => Comparer.Compare(Tempvalue!, ComparisonValue!) == 0 ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? "")),
 
-                case ComparisonType.GreaterThan:
-                    return Comparer.Compare(Tempvalue, ComparisonValue) > 0 ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? ""));
+                ComparisonType.NotEqual => Comparer.Compare(Tempvalue!, ComparisonValue!) != 0 ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? "")),
 
-                case ComparisonType.GreaterThanOrEqual:
-                    return Comparer.Compare(Tempvalue, ComparisonValue) >= 0 ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? ""));
+                ComparisonType.GreaterThan => Comparer.Compare(Tempvalue!, ComparisonValue!) > 0 ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? "")),
 
-                case ComparisonType.LessThan:
-                    return Comparer.Compare(Tempvalue, ComparisonValue) < 0 ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? ""));
+                ComparisonType.GreaterThanOrEqual => Comparer.Compare(Tempvalue!, ComparisonValue!) >= 0 ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? "")),
 
-                case ComparisonType.LessThanOrEqual:
-                    return Comparer.Compare(Tempvalue, ComparisonValue) <= 0 ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? ""));
+                ComparisonType.LessThan => Comparer.Compare(Tempvalue!, ComparisonValue!) < 0 ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? "")),
 
-                default:
-                    return ValidationResult.Success;
-            }
+                ComparisonType.LessThanOrEqual => Comparer.Compare(Tempvalue!, ComparisonValue!) <= 0 ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? "")),
+
+                _ => ValidationResult.Success,
+            };
         }
     }
 }
