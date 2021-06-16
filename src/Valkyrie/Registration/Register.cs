@@ -14,11 +14,11 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-using BigBook.Registration;
 using Canister.Interfaces;
 using System.Reflection;
+using Valkyrie;
 
-namespace Valkyrie.Registration
+namespace Microsoft.Extensions.DependencyInjection
 {
     /// <summary>
     /// Registration extension methods
@@ -30,9 +30,9 @@ namespace Valkyrie.Registration
         /// </summary>
         /// <param name="bootstrapper">The bootstrapper.</param>
         /// <returns>The bootstrapper</returns>
-        public static IBootstrapper RegisterValkyrie(this IBootstrapper bootstrapper)
+        public static ICanisterConfiguration? RegisterValkyrie(this ICanisterConfiguration? bootstrapper)
         {
-            return bootstrapper.AddAssembly(typeof(Registration).GetTypeInfo().Assembly)
+            return bootstrapper?.AddAssembly(typeof(IsAttribute).GetTypeInfo().Assembly)
                                .RegisterBigBookOfDataTypes();
         }
     }

@@ -15,7 +15,7 @@ limitations under the License.
 */
 
 using System.ComponentModel.DataAnnotations;
-
+using Valkyrie.Tests.BaseClasses;
 using Xunit;
 
 namespace Valkyrie.Tests.Rules
@@ -26,7 +26,7 @@ namespace Valkyrie.Tests.Rules
         public int ItemA { get; set; }
     }
 
-    public class NotBetweenTests
+    public class NotBetweenTests : TestingDirectoryFixture
     {
         [Fact]
         public void Test()

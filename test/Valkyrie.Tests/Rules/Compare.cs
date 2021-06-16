@@ -16,7 +16,7 @@ limitations under the License.
 
 using System;
 using System.ComponentModel.DataAnnotations;
-
+using Valkyrie.Tests.BaseClasses;
 using Xunit;
 
 namespace Valkyrie.Tests.Rules
@@ -48,7 +48,7 @@ namespace Valkyrie.Tests.Rules
         public object NullProp { get; set; }
     }
 
-    public class CompareTests
+    public class CompareTests : TestingDirectoryFixture
     {
         [Fact]
         public void Test()

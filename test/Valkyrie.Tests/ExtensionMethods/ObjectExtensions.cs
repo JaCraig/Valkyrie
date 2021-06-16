@@ -16,11 +16,12 @@ limitations under the License.
 
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using Valkyrie.Tests.BaseClasses;
 using Xunit;
 
 namespace Valkyrie.Tests.Extensions
 {
-    public class ObjectExtensions
+    public class ObjectExtensions : TestingDirectoryFixture
     {
         [Fact]
         public void ObjectValidationTest()

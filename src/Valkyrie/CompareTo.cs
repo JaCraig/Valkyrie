@@ -16,6 +16,7 @@ limitations under the License.
 
 using BigBook;
 using BigBook.Comparison;
+using ObjectCartographer;
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.Globalization;
@@ -100,7 +101,7 @@ namespace Valkyrie
             var Tempvalue = value as IComparable;
             var InitialComparisonValue = validationContext?.ObjectType?.GetProperty(PropertyName)?.GetValue(validationContext?.ObjectInstance, null);
             var Comparer = new GenericComparer<IComparable>();
-            var ComparisonValue = InitialComparisonValue?.To<object>(value?.GetType() ?? typeof(object)) as IComparable;
+            var ComparisonValue = InitialComparisonValue?.To(value?.GetType() ?? typeof(object), null) as IComparable;
             return Type switch
             {
                 ComparisonType.Same => ReferenceEquals(value, InitialComparisonValue) ? ValidationResult.Success : new ValidationResult(FormatErrorMessage(validationContext?.DisplayName ?? "")),

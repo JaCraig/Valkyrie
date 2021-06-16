@@ -16,6 +16,7 @@ limitations under the License.
 
 using BigBook;
 using BigBook.Comparison;
+using ObjectCartographer;
 using System;
 using System.Collections;
 using System.ComponentModel.DataAnnotations;
@@ -79,7 +80,7 @@ namespace Valkyrie
                 IComparable? ValueTemp = 0;
                 foreach (IComparable Item in ValueList)
                 {
-                    ValueTemp = Value.To<object>(Item.GetType()) as IComparable;
+                    ValueTemp = Value.To(Item.GetType(), null) as IComparable;
                     break;
                 }
                 foreach (IComparable Item in ValueList)

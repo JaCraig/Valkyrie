@@ -16,6 +16,7 @@ limitations under the License.
 
 using BigBook;
 using BigBook.Comparison;
+using ObjectCartographer;
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.Globalization;
@@ -98,7 +99,7 @@ namespace Valkyrie
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
             var Comparer = new GenericComparer<IComparable>();
-            var Value2 = Value.To<object>(value?.GetType() ?? typeof(object)) as IComparable;
+            var Value2 = Value.To(value?.GetType() ?? typeof(object), null) as IComparable;
             var TempValue = value as IComparable;
             return Type switch
             {

@@ -15,12 +15,12 @@ limitations under the License.
 */
 
 using System;
-
+using Valkyrie.Tests.BaseClasses;
 using Xunit;
 
 namespace Valkyrie.Tests.Rules
 {
-    public class CascadeTests
+    public class CascadeTests : TestingDirectoryFixture
     {
         [Fact]
         public void Test()
