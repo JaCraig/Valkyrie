@@ -27,7 +27,7 @@
 
   <ItemGroup>
     <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
-    <PackageReference Include="BigBook" Version="4.0.8" />
+    <PackageReference Include="BigBook" Version="4.0.16" />
   </ItemGroup>
 
 </Project>
