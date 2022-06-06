@@ -10,7 +10,7 @@
     <Description>Valkyrie is a simple validation library that adds a number of DataAnnotations.</Description>
     <AssemblyTitle>Valkyrie</AssemblyTitle>
     <Authors>James Craig</Authors>
-    <TargetFramework>netstandard2.1</TargetFramework>
+	  <TargetFrameworks>netstandard2.1;net5.0;net6.0</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>Valkyrie</AssemblyName>
     <PackageId>Valkyrie</PackageId>
@@ -27,7 +27,7 @@
 
   <ItemGroup>
     <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
-    <PackageReference Include="BigBook" Version="4.0.16" />
+    <PackageReference Include="BigBook" Version="4.0.18" />
   </ItemGroup>
 
 </Project>
