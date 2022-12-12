@@ -1,5 +1,4 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using System;
+﻿using System;
 using Xunit;
 
 namespace Valkyrie.Tests.BaseClasses
@@ -9,10 +8,6 @@ namespace Valkyrie.Tests.BaseClasses
     {
         public TestingDirectoryFixture()
         {
-            if (Canister.Builder.Bootstrapper == null)
-            {
-                new ServiceCollection().AddCanisterModules();
-            }
         }
 
         public void Dispose()
