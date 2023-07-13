@@ -1,5 +1,6 @@
 # Valkyrie
 
+[![.NET Publish](https://github.com/JaCraig/Valkyrie/actions/workflows/dotnet-publish.yml/badge.svg)](https://github.com/JaCraig/Valkyrie/actions/workflows/dotnet-publish.yml)
 
 Valkyrie is a simple set of data annotations and extension methods to help with validating your objects in .NET.
 
