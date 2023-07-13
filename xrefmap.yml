@@ -1,0 +1,952 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Microsoft.Extensions.DependencyInjection
+  name: Microsoft.Extensions.DependencyInjection
+  href: api/Microsoft.Extensions.DependencyInjection.html
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+- uid: Microsoft.Extensions.DependencyInjection.Registration
+  name: Registration
+  href: api/Microsoft.Extensions.DependencyInjection.Registration.html
+  commentId: T:Microsoft.Extensions.DependencyInjection.Registration
+  fullName: Microsoft.Extensions.DependencyInjection.Registration
+  nameWithType: Registration
+- uid: Microsoft.Extensions.DependencyInjection.Registration.RegisterValkyrie(Canister.Interfaces.ICanisterConfiguration)
+  name: RegisterValkyrie(ICanisterConfiguration?)
+  href: api/Microsoft.Extensions.DependencyInjection.Registration.html#Microsoft_Extensions_DependencyInjection_Registration_RegisterValkyrie_Canister_Interfaces_ICanisterConfiguration_
+  commentId: M:Microsoft.Extensions.DependencyInjection.Registration.RegisterValkyrie(Canister.Interfaces.ICanisterConfiguration)
+  name.vb: RegisterValkyrie(ICanisterConfiguration)
+  fullName: Microsoft.Extensions.DependencyInjection.Registration.RegisterValkyrie(Canister.Interfaces.ICanisterConfiguration?)
+  fullName.vb: Microsoft.Extensions.DependencyInjection.Registration.RegisterValkyrie(Canister.Interfaces.ICanisterConfiguration)
+  nameWithType: Registration.RegisterValkyrie(ICanisterConfiguration?)
+  nameWithType.vb: Registration.RegisterValkyrie(ICanisterConfiguration)
+- uid: Microsoft.Extensions.DependencyInjection.Registration.RegisterValkyrie*
+  name: RegisterValkyrie
+  href: api/Microsoft.Extensions.DependencyInjection.Registration.html#Microsoft_Extensions_DependencyInjection_Registration_RegisterValkyrie_
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.Registration.RegisterValkyrie
+  isSpec: "True"
+  fullName: Microsoft.Extensions.DependencyInjection.Registration.RegisterValkyrie
+  nameWithType: Registration.RegisterValkyrie
+- uid: Valkyrie
+  name: Valkyrie
+  href: api/Valkyrie.html
+  commentId: N:Valkyrie
+  fullName: Valkyrie
+  nameWithType: Valkyrie
+- uid: Valkyrie.BetweenAttribute
+  name: BetweenAttribute
+  href: api/Valkyrie.BetweenAttribute.html
+  commentId: T:Valkyrie.BetweenAttribute
+  fullName: Valkyrie.BetweenAttribute
+  nameWithType: BetweenAttribute
+- uid: Valkyrie.BetweenAttribute.#ctor(System.Object,System.Object,System.String)
+  name: BetweenAttribute(object, object, string)
+  href: api/Valkyrie.BetweenAttribute.html#Valkyrie_BetweenAttribute__ctor_System_Object_System_Object_System_String_
+  commentId: M:Valkyrie.BetweenAttribute.#ctor(System.Object,System.Object,System.String)
+  name.vb: New(Object, Object, String)
+  fullName: Valkyrie.BetweenAttribute.BetweenAttribute(object, object, string)
+  fullName.vb: Valkyrie.BetweenAttribute.New(Object, Object, String)
+  nameWithType: BetweenAttribute.BetweenAttribute(object, object, string)
+  nameWithType.vb: BetweenAttribute.New(Object, Object, String)
+- uid: Valkyrie.BetweenAttribute.#ctor*
+  name: BetweenAttribute
+  href: api/Valkyrie.BetweenAttribute.html#Valkyrie_BetweenAttribute__ctor_
+  commentId: Overload:Valkyrie.BetweenAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Valkyrie.BetweenAttribute.BetweenAttribute
+  fullName.vb: Valkyrie.BetweenAttribute.New
+  nameWithType: BetweenAttribute.BetweenAttribute
+  nameWithType.vb: BetweenAttribute.New
+- uid: Valkyrie.BetweenAttribute.FormatErrorMessage(System.String)
+  name: FormatErrorMessage(string)
+  href: api/Valkyrie.BetweenAttribute.html#Valkyrie_BetweenAttribute_FormatErrorMessage_System_String_
+  commentId: M:Valkyrie.BetweenAttribute.FormatErrorMessage(System.String)
+  name.vb: FormatErrorMessage(String)
+  fullName: Valkyrie.BetweenAttribute.FormatErrorMessage(string)
+  fullName.vb: Valkyrie.BetweenAttribute.FormatErrorMessage(String)
+  nameWithType: BetweenAttribute.FormatErrorMessage(string)
+  nameWithType.vb: BetweenAttribute.FormatErrorMessage(String)
+- uid: Valkyrie.BetweenAttribute.FormatErrorMessage*
+  name: FormatErrorMessage
+  href: api/Valkyrie.BetweenAttribute.html#Valkyrie_BetweenAttribute_FormatErrorMessage_
+  commentId: Overload:Valkyrie.BetweenAttribute.FormatErrorMessage
+  isSpec: "True"
+  fullName: Valkyrie.BetweenAttribute.FormatErrorMessage
+  nameWithType: BetweenAttribute.FormatErrorMessage
+- uid: Valkyrie.BetweenAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+  name: IsValid(object, ValidationContext)
+  href: api/Valkyrie.BetweenAttribute.html#Valkyrie_BetweenAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_
+  commentId: M:Valkyrie.BetweenAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+  name.vb: IsValid(Object, ValidationContext)
+  fullName: Valkyrie.BetweenAttribute.IsValid(object, System.ComponentModel.DataAnnotations.ValidationContext)
+  fullName.vb: Valkyrie.BetweenAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)
+  nameWithType: BetweenAttribute.IsValid(object, ValidationContext)
+  nameWithType.vb: BetweenAttribute.IsValid(Object, ValidationContext)
+- uid: Valkyrie.BetweenAttribute.IsValid*
+  name: IsValid
+  href: api/Valkyrie.BetweenAttribute.html#Valkyrie_BetweenAttribute_IsValid_
+  commentId: Overload:Valkyrie.BetweenAttribute.IsValid
+  isSpec: "True"
+  fullName: Valkyrie.BetweenAttribute.IsValid
+  nameWithType: BetweenAttribute.IsValid
+- uid: Valkyrie.BetweenAttribute.Max
+  name: Max
+  href: api/Valkyrie.BetweenAttribute.html#Valkyrie_BetweenAttribute_Max
+  commentId: P:Valkyrie.BetweenAttribute.Max
+  fullName: Valkyrie.BetweenAttribute.Max
+  nameWithType: BetweenAttribute.Max
+- uid: Valkyrie.BetweenAttribute.Max*
+  name: Max
+  href: api/Valkyrie.BetweenAttribute.html#Valkyrie_BetweenAttribute_Max_
+  commentId: Overload:Valkyrie.BetweenAttribute.Max
+  isSpec: "True"
+  fullName: Valkyrie.BetweenAttribute.Max
+  nameWithType: BetweenAttribute.Max
+- uid: Valkyrie.BetweenAttribute.Min
+  name: Min
+  href: api/Valkyrie.BetweenAttribute.html#Valkyrie_BetweenAttribute_Min
+  commentId: P:Valkyrie.BetweenAttribute.Min
+  fullName: Valkyrie.BetweenAttribute.Min
+  nameWithType: BetweenAttribute.Min
+- uid: Valkyrie.BetweenAttribute.Min*
+  name: Min
+  href: api/Valkyrie.BetweenAttribute.html#Valkyrie_BetweenAttribute_Min_
+  commentId: Overload:Valkyrie.BetweenAttribute.Min
+  isSpec: "True"
+  fullName: Valkyrie.BetweenAttribute.Min
+  nameWithType: BetweenAttribute.Min
+- uid: Valkyrie.CascadeAttribute
+  name: CascadeAttribute
+  href: api/Valkyrie.CascadeAttribute.html
+  commentId: T:Valkyrie.CascadeAttribute
+  fullName: Valkyrie.CascadeAttribute
+  nameWithType: CascadeAttribute
+- uid: Valkyrie.CascadeAttribute.#ctor(System.String)
+  name: CascadeAttribute(string)
+  href: api/Valkyrie.CascadeAttribute.html#Valkyrie_CascadeAttribute__ctor_System_String_
+  commentId: M:Valkyrie.CascadeAttribute.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Valkyrie.CascadeAttribute.CascadeAttribute(string)
+  fullName.vb: Valkyrie.CascadeAttribute.New(String)
+  nameWithType: CascadeAttribute.CascadeAttribute(string)
+  nameWithType.vb: CascadeAttribute.New(String)
+- uid: Valkyrie.CascadeAttribute.#ctor*
+  name: CascadeAttribute
+  href: api/Valkyrie.CascadeAttribute.html#Valkyrie_CascadeAttribute__ctor_
+  commentId: Overload:Valkyrie.CascadeAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Valkyrie.CascadeAttribute.CascadeAttribute
+  fullName.vb: Valkyrie.CascadeAttribute.New
+  nameWithType: CascadeAttribute.CascadeAttribute
+  nameWithType.vb: CascadeAttribute.New
+- uid: Valkyrie.CascadeAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+  name: IsValid(object, ValidationContext)
+  href: api/Valkyrie.CascadeAttribute.html#Valkyrie_CascadeAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_
+  commentId: M:Valkyrie.CascadeAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+  name.vb: IsValid(Object, ValidationContext)
+  fullName: Valkyrie.CascadeAttribute.IsValid(object, System.ComponentModel.DataAnnotations.ValidationContext)
+  fullName.vb: Valkyrie.CascadeAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)
+  nameWithType: CascadeAttribute.IsValid(object, ValidationContext)
+  nameWithType.vb: CascadeAttribute.IsValid(Object, ValidationContext)
+- uid: Valkyrie.CascadeAttribute.IsValid*
+  name: IsValid
+  href: api/Valkyrie.CascadeAttribute.html#Valkyrie_CascadeAttribute_IsValid_
+  commentId: Overload:Valkyrie.CascadeAttribute.IsValid
+  isSpec: "True"
+  fullName: Valkyrie.CascadeAttribute.IsValid
+  nameWithType: CascadeAttribute.IsValid
+- uid: Valkyrie.CompareAttribute
+  name: CompareAttribute
+  href: api/Valkyrie.CompareAttribute.html
+  commentId: T:Valkyrie.CompareAttribute
+  fullName: Valkyrie.CompareAttribute
+  nameWithType: CompareAttribute
+- uid: Valkyrie.CompareAttribute.#ctor(System.Object,Valkyrie.ComparisonType,System.String)
+  name: CompareAttribute(object, ComparisonType, string)
+  href: api/Valkyrie.CompareAttribute.html#Valkyrie_CompareAttribute__ctor_System_Object_Valkyrie_ComparisonType_System_String_
+  commentId: M:Valkyrie.CompareAttribute.#ctor(System.Object,Valkyrie.ComparisonType,System.String)
+  name.vb: New(Object, ComparisonType, String)
+  fullName: Valkyrie.CompareAttribute.CompareAttribute(object, Valkyrie.ComparisonType, string)
+  fullName.vb: Valkyrie.CompareAttribute.New(Object, Valkyrie.ComparisonType, String)
+  nameWithType: CompareAttribute.CompareAttribute(object, ComparisonType, string)
+  nameWithType.vb: CompareAttribute.New(Object, ComparisonType, String)
+- uid: Valkyrie.CompareAttribute.#ctor*
+  name: CompareAttribute
+  href: api/Valkyrie.CompareAttribute.html#Valkyrie_CompareAttribute__ctor_
+  commentId: Overload:Valkyrie.CompareAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Valkyrie.CompareAttribute.CompareAttribute
+  fullName.vb: Valkyrie.CompareAttribute.New
+  nameWithType: CompareAttribute.CompareAttribute
+  nameWithType.vb: CompareAttribute.New
+- uid: Valkyrie.CompareAttribute.FormatErrorMessage(System.String)
+  name: FormatErrorMessage(string)
+  href: api/Valkyrie.CompareAttribute.html#Valkyrie_CompareAttribute_FormatErrorMessage_System_String_
+  commentId: M:Valkyrie.CompareAttribute.FormatErrorMessage(System.String)
+  name.vb: FormatErrorMessage(String)
+  fullName: Valkyrie.CompareAttribute.FormatErrorMessage(string)
+  fullName.vb: Valkyrie.CompareAttribute.FormatErrorMessage(String)
+  nameWithType: CompareAttribute.FormatErrorMessage(string)
+  nameWithType.vb: CompareAttribute.FormatErrorMessage(String)
+- uid: Valkyrie.CompareAttribute.FormatErrorMessage*
+  name: FormatErrorMessage
+  href: api/Valkyrie.CompareAttribute.html#Valkyrie_CompareAttribute_FormatErrorMessage_
+  commentId: Overload:Valkyrie.CompareAttribute.FormatErrorMessage
+  isSpec: "True"
+  fullName: Valkyrie.CompareAttribute.FormatErrorMessage
+  nameWithType: CompareAttribute.FormatErrorMessage
+- uid: Valkyrie.CompareAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+  name: IsValid(object, ValidationContext)
+  href: api/Valkyrie.CompareAttribute.html#Valkyrie_CompareAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_
+  commentId: M:Valkyrie.CompareAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+  name.vb: IsValid(Object, ValidationContext)
+  fullName: Valkyrie.CompareAttribute.IsValid(object, System.ComponentModel.DataAnnotations.ValidationContext)
+  fullName.vb: Valkyrie.CompareAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)
+  nameWithType: CompareAttribute.IsValid(object, ValidationContext)
+  nameWithType.vb: CompareAttribute.IsValid(Object, ValidationContext)
+- uid: Valkyrie.CompareAttribute.IsValid*
+  name: IsValid
+  href: api/Valkyrie.CompareAttribute.html#Valkyrie_CompareAttribute_IsValid_
+  commentId: Overload:Valkyrie.CompareAttribute.IsValid
+  isSpec: "True"
+  fullName: Valkyrie.CompareAttribute.IsValid
+  nameWithType: CompareAttribute.IsValid
+- uid: Valkyrie.CompareAttribute.Type
+  name: Type
+  href: api/Valkyrie.CompareAttribute.html#Valkyrie_CompareAttribute_Type
+  commentId: P:Valkyrie.CompareAttribute.Type
+  fullName: Valkyrie.CompareAttribute.Type
+  nameWithType: CompareAttribute.Type
+- uid: Valkyrie.CompareAttribute.Type*
+  name: Type
+  href: api/Valkyrie.CompareAttribute.html#Valkyrie_CompareAttribute_Type_
+  commentId: Overload:Valkyrie.CompareAttribute.Type
+  isSpec: "True"
+  fullName: Valkyrie.CompareAttribute.Type
+  nameWithType: CompareAttribute.Type
+- uid: Valkyrie.CompareAttribute.Value
+  name: Value
+  href: api/Valkyrie.CompareAttribute.html#Valkyrie_CompareAttribute_Value
+  commentId: P:Valkyrie.CompareAttribute.Value
+  fullName: Valkyrie.CompareAttribute.Value
+  nameWithType: CompareAttribute.Value
+- uid: Valkyrie.CompareAttribute.Value*
+  name: Value
+  href: api/Valkyrie.CompareAttribute.html#Valkyrie_CompareAttribute_Value_
+  commentId: Overload:Valkyrie.CompareAttribute.Value
+  isSpec: "True"
+  fullName: Valkyrie.CompareAttribute.Value
+  nameWithType: CompareAttribute.Value
+- uid: Valkyrie.CompareToAttribute
+  name: CompareToAttribute
+  href: api/Valkyrie.CompareToAttribute.html
+  commentId: T:Valkyrie.CompareToAttribute
+  fullName: Valkyrie.CompareToAttribute
+  nameWithType: CompareToAttribute
+- uid: Valkyrie.CompareToAttribute.#ctor(System.String,Valkyrie.ComparisonType,System.String)
+  name: CompareToAttribute(string, ComparisonType, string)
+  href: api/Valkyrie.CompareToAttribute.html#Valkyrie_CompareToAttribute__ctor_System_String_Valkyrie_ComparisonType_System_String_
+  commentId: M:Valkyrie.CompareToAttribute.#ctor(System.String,Valkyrie.ComparisonType,System.String)
+  name.vb: New(String, ComparisonType, String)
+  fullName: Valkyrie.CompareToAttribute.CompareToAttribute(string, Valkyrie.ComparisonType, string)
+  fullName.vb: Valkyrie.CompareToAttribute.New(String, Valkyrie.ComparisonType, String)
+  nameWithType: CompareToAttribute.CompareToAttribute(string, ComparisonType, string)
+  nameWithType.vb: CompareToAttribute.New(String, ComparisonType, String)
+- uid: Valkyrie.CompareToAttribute.#ctor*
+  name: CompareToAttribute
+  href: api/Valkyrie.CompareToAttribute.html#Valkyrie_CompareToAttribute__ctor_
+  commentId: Overload:Valkyrie.CompareToAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Valkyrie.CompareToAttribute.CompareToAttribute
+  fullName.vb: Valkyrie.CompareToAttribute.New
+  nameWithType: CompareToAttribute.CompareToAttribute
+  nameWithType.vb: CompareToAttribute.New
+- uid: Valkyrie.CompareToAttribute.FormatErrorMessage(System.String)
+  name: FormatErrorMessage(string)
+  href: api/Valkyrie.CompareToAttribute.html#Valkyrie_CompareToAttribute_FormatErrorMessage_System_String_
+  commentId: M:Valkyrie.CompareToAttribute.FormatErrorMessage(System.String)
+  name.vb: FormatErrorMessage(String)
+  fullName: Valkyrie.CompareToAttribute.FormatErrorMessage(string)
+  fullName.vb: Valkyrie.CompareToAttribute.FormatErrorMessage(String)
+  nameWithType: CompareToAttribute.FormatErrorMessage(string)
+  nameWithType.vb: CompareToAttribute.FormatErrorMessage(String)
+- uid: Valkyrie.CompareToAttribute.FormatErrorMessage*
+  name: FormatErrorMessage
+  href: api/Valkyrie.CompareToAttribute.html#Valkyrie_CompareToAttribute_FormatErrorMessage_
+  commentId: Overload:Valkyrie.CompareToAttribute.FormatErrorMessage
+  isSpec: "True"
+  fullName: Valkyrie.CompareToAttribute.FormatErrorMessage
+  nameWithType: CompareToAttribute.FormatErrorMessage
+- uid: Valkyrie.CompareToAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+  name: IsValid(object, ValidationContext)
+  href: api/Valkyrie.CompareToAttribute.html#Valkyrie_CompareToAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_
+  commentId: M:Valkyrie.CompareToAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+  name.vb: IsValid(Object, ValidationContext)
+  fullName: Valkyrie.CompareToAttribute.IsValid(object, System.ComponentModel.DataAnnotations.ValidationContext)
+  fullName.vb: Valkyrie.CompareToAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)
+  nameWithType: CompareToAttribute.IsValid(object, ValidationContext)
+  nameWithType.vb: CompareToAttribute.IsValid(Object, ValidationContext)
+- uid: Valkyrie.CompareToAttribute.IsValid*
+  name: IsValid
+  href: api/Valkyrie.CompareToAttribute.html#Valkyrie_CompareToAttribute_IsValid_
+  commentId: Overload:Valkyrie.CompareToAttribute.IsValid
+  isSpec: "True"
+  fullName: Valkyrie.CompareToAttribute.IsValid
+  nameWithType: CompareToAttribute.IsValid
+- uid: Valkyrie.CompareToAttribute.PropertyName
+  name: PropertyName
+  href: api/Valkyrie.CompareToAttribute.html#Valkyrie_CompareToAttribute_PropertyName
+  commentId: P:Valkyrie.CompareToAttribute.PropertyName
+  fullName: Valkyrie.CompareToAttribute.PropertyName
+  nameWithType: CompareToAttribute.PropertyName
+- uid: Valkyrie.CompareToAttribute.PropertyName*
+  name: PropertyName
+  href: api/Valkyrie.CompareToAttribute.html#Valkyrie_CompareToAttribute_PropertyName_
+  commentId: Overload:Valkyrie.CompareToAttribute.PropertyName
+  isSpec: "True"
+  fullName: Valkyrie.CompareToAttribute.PropertyName
+  nameWithType: CompareToAttribute.PropertyName
+- uid: Valkyrie.CompareToAttribute.Type
+  name: Type
+  href: api/Valkyrie.CompareToAttribute.html#Valkyrie_CompareToAttribute_Type
+  commentId: P:Valkyrie.CompareToAttribute.Type
+  fullName: Valkyrie.CompareToAttribute.Type
+  nameWithType: CompareToAttribute.Type
+- uid: Valkyrie.CompareToAttribute.Type*
+  name: Type
+  href: api/Valkyrie.CompareToAttribute.html#Valkyrie_CompareToAttribute_Type_
+  commentId: Overload:Valkyrie.CompareToAttribute.Type
+  isSpec: "True"
+  fullName: Valkyrie.CompareToAttribute.Type
+  nameWithType: CompareToAttribute.Type
+- uid: Valkyrie.ComparisonType
+  name: ComparisonType
+  href: api/Valkyrie.ComparisonType.html
+  commentId: T:Valkyrie.ComparisonType
+  fullName: Valkyrie.ComparisonType
+  nameWithType: ComparisonType
+- uid: Valkyrie.ComparisonType.Equal
+  name: Equal
+  href: api/Valkyrie.ComparisonType.html#Valkyrie_ComparisonType_Equal
+  commentId: F:Valkyrie.ComparisonType.Equal
+  fullName: Valkyrie.ComparisonType.Equal
+  nameWithType: ComparisonType.Equal
+- uid: Valkyrie.ComparisonType.GreaterThan
+  name: GreaterThan
+  href: api/Valkyrie.ComparisonType.html#Valkyrie_ComparisonType_GreaterThan
+  commentId: F:Valkyrie.ComparisonType.GreaterThan
+  fullName: Valkyrie.ComparisonType.GreaterThan
+  nameWithType: ComparisonType.GreaterThan
+- uid: Valkyrie.ComparisonType.GreaterThanOrEqual
+  name: GreaterThanOrEqual
+  href: api/Valkyrie.ComparisonType.html#Valkyrie_ComparisonType_GreaterThanOrEqual
+  commentId: F:Valkyrie.ComparisonType.GreaterThanOrEqual
+  fullName: Valkyrie.ComparisonType.GreaterThanOrEqual
+  nameWithType: ComparisonType.GreaterThanOrEqual
+- uid: Valkyrie.ComparisonType.LessThan
+  name: LessThan
+  href: api/Valkyrie.ComparisonType.html#Valkyrie_ComparisonType_LessThan
+  commentId: F:Valkyrie.ComparisonType.LessThan
+  fullName: Valkyrie.ComparisonType.LessThan
+  nameWithType: ComparisonType.LessThan
+- uid: Valkyrie.ComparisonType.LessThanOrEqual
+  name: LessThanOrEqual
+  href: api/Valkyrie.ComparisonType.html#Valkyrie_ComparisonType_LessThanOrEqual
+  commentId: F:Valkyrie.ComparisonType.LessThanOrEqual
+  fullName: Valkyrie.ComparisonType.LessThanOrEqual
+  nameWithType: ComparisonType.LessThanOrEqual
+- uid: Valkyrie.ComparisonType.NotEqual
+  name: NotEqual
+  href: api/Valkyrie.ComparisonType.html#Valkyrie_ComparisonType_NotEqual
+  commentId: F:Valkyrie.ComparisonType.NotEqual
+  fullName: Valkyrie.ComparisonType.NotEqual
+  nameWithType: ComparisonType.NotEqual
+- uid: Valkyrie.ComparisonType.Same
+  name: Same
+  href: api/Valkyrie.ComparisonType.html#Valkyrie_ComparisonType_Same
+  commentId: F:Valkyrie.ComparisonType.Same
+  fullName: Valkyrie.ComparisonType.Same
+  nameWithType: ComparisonType.Same
+- uid: Valkyrie.ContainsAttribute
+  name: ContainsAttribute
+  href: api/Valkyrie.ContainsAttribute.html
+  commentId: T:Valkyrie.ContainsAttribute
+  fullName: Valkyrie.ContainsAttribute
+  nameWithType: ContainsAttribute
+- uid: Valkyrie.ContainsAttribute.#ctor(System.Object,System.String)
+  name: ContainsAttribute(object, string)
+  href: api/Valkyrie.ContainsAttribute.html#Valkyrie_ContainsAttribute__ctor_System_Object_System_String_
+  commentId: M:Valkyrie.ContainsAttribute.#ctor(System.Object,System.String)
+  name.vb: New(Object, String)
+  fullName: Valkyrie.ContainsAttribute.ContainsAttribute(object, string)
+  fullName.vb: Valkyrie.ContainsAttribute.New(Object, String)
+  nameWithType: ContainsAttribute.ContainsAttribute(object, string)
+  nameWithType.vb: ContainsAttribute.New(Object, String)
+- uid: Valkyrie.ContainsAttribute.#ctor*
+  name: ContainsAttribute
+  href: api/Valkyrie.ContainsAttribute.html#Valkyrie_ContainsAttribute__ctor_
+  commentId: Overload:Valkyrie.ContainsAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Valkyrie.ContainsAttribute.ContainsAttribute
+  fullName.vb: Valkyrie.ContainsAttribute.New
+  nameWithType: ContainsAttribute.ContainsAttribute
+  nameWithType.vb: ContainsAttribute.New
+- uid: Valkyrie.ContainsAttribute.FormatErrorMessage(System.String)
+  name: FormatErrorMessage(string)
+  href: api/Valkyrie.ContainsAttribute.html#Valkyrie_ContainsAttribute_FormatErrorMessage_System_String_
+  commentId: M:Valkyrie.ContainsAttribute.FormatErrorMessage(System.String)
+  name.vb: FormatErrorMessage(String)
+  fullName: Valkyrie.ContainsAttribute.FormatErrorMessage(string)
+  fullName.vb: Valkyrie.ContainsAttribute.FormatErrorMessage(String)
+  nameWithType: ContainsAttribute.FormatErrorMessage(string)
+  nameWithType.vb: ContainsAttribute.FormatErrorMessage(String)
+- uid: Valkyrie.ContainsAttribute.FormatErrorMessage*
+  name: FormatErrorMessage
+  href: api/Valkyrie.ContainsAttribute.html#Valkyrie_ContainsAttribute_FormatErrorMessage_
+  commentId: Overload:Valkyrie.ContainsAttribute.FormatErrorMessage
+  isSpec: "True"
+  fullName: Valkyrie.ContainsAttribute.FormatErrorMessage
+  nameWithType: ContainsAttribute.FormatErrorMessage
+- uid: Valkyrie.ContainsAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+  name: IsValid(object, ValidationContext)
+  href: api/Valkyrie.ContainsAttribute.html#Valkyrie_ContainsAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_
+  commentId: M:Valkyrie.ContainsAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+  name.vb: IsValid(Object, ValidationContext)
+  fullName: Valkyrie.ContainsAttribute.IsValid(object, System.ComponentModel.DataAnnotations.ValidationContext)
+  fullName.vb: Valkyrie.ContainsAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)
+  nameWithType: ContainsAttribute.IsValid(object, ValidationContext)
+  nameWithType.vb: ContainsAttribute.IsValid(Object, ValidationContext)
+- uid: Valkyrie.ContainsAttribute.IsValid*
+  name: IsValid
+  href: api/Valkyrie.ContainsAttribute.html#Valkyrie_ContainsAttribute_IsValid_
+  commentId: Overload:Valkyrie.ContainsAttribute.IsValid
+  isSpec: "True"
+  fullName: Valkyrie.ContainsAttribute.IsValid
+  nameWithType: ContainsAttribute.IsValid
+- uid: Valkyrie.ContainsAttribute.Value
+  name: Value
+  href: api/Valkyrie.ContainsAttribute.html#Valkyrie_ContainsAttribute_Value
+  commentId: P:Valkyrie.ContainsAttribute.Value
+  fullName: Valkyrie.ContainsAttribute.Value
+  nameWithType: ContainsAttribute.Value
+- uid: Valkyrie.ContainsAttribute.Value*
+  name: Value
+  href: api/Valkyrie.ContainsAttribute.html#Valkyrie_ContainsAttribute_Value_
+  commentId: Overload:Valkyrie.ContainsAttribute.Value
+  isSpec: "True"
+  fullName: Valkyrie.ContainsAttribute.Value
+  nameWithType: ContainsAttribute.Value
+- uid: Valkyrie.DoesNotContainAttribute
+  name: DoesNotContainAttribute
+  href: api/Valkyrie.DoesNotContainAttribute.html
+  commentId: T:Valkyrie.DoesNotContainAttribute
+  fullName: Valkyrie.DoesNotContainAttribute
+  nameWithType: DoesNotContainAttribute
+- uid: Valkyrie.DoesNotContainAttribute.#ctor(System.Object,System.String)
+  name: DoesNotContainAttribute(object, string)
+  href: api/Valkyrie.DoesNotContainAttribute.html#Valkyrie_DoesNotContainAttribute__ctor_System_Object_System_String_
+  commentId: M:Valkyrie.DoesNotContainAttribute.#ctor(System.Object,System.String)
+  name.vb: New(Object, String)
+  fullName: Valkyrie.DoesNotContainAttribute.DoesNotContainAttribute(object, string)
+  fullName.vb: Valkyrie.DoesNotContainAttribute.New(Object, String)
+  nameWithType: DoesNotContainAttribute.DoesNotContainAttribute(object, string)
+  nameWithType.vb: DoesNotContainAttribute.New(Object, String)
+- uid: Valkyrie.DoesNotContainAttribute.#ctor*
+  name: DoesNotContainAttribute
+  href: api/Valkyrie.DoesNotContainAttribute.html#Valkyrie_DoesNotContainAttribute__ctor_
+  commentId: Overload:Valkyrie.DoesNotContainAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Valkyrie.DoesNotContainAttribute.DoesNotContainAttribute
+  fullName.vb: Valkyrie.DoesNotContainAttribute.New
+  nameWithType: DoesNotContainAttribute.DoesNotContainAttribute
+  nameWithType.vb: DoesNotContainAttribute.New
+- uid: Valkyrie.DoesNotContainAttribute.FormatErrorMessage(System.String)
+  name: FormatErrorMessage(string)
+  href: api/Valkyrie.DoesNotContainAttribute.html#Valkyrie_DoesNotContainAttribute_FormatErrorMessage_System_String_
+  commentId: M:Valkyrie.DoesNotContainAttribute.FormatErrorMessage(System.String)
+  name.vb: FormatErrorMessage(String)
+  fullName: Valkyrie.DoesNotContainAttribute.FormatErrorMessage(string)
+  fullName.vb: Valkyrie.DoesNotContainAttribute.FormatErrorMessage(String)
+  nameWithType: DoesNotContainAttribute.FormatErrorMessage(string)
+  nameWithType.vb: DoesNotContainAttribute.FormatErrorMessage(String)
+- uid: Valkyrie.DoesNotContainAttribute.FormatErrorMessage*
+  name: FormatErrorMessage
+  href: api/Valkyrie.DoesNotContainAttribute.html#Valkyrie_DoesNotContainAttribute_FormatErrorMessage_
+  commentId: Overload:Valkyrie.DoesNotContainAttribute.FormatErrorMessage
+  isSpec: "True"
+  fullName: Valkyrie.DoesNotContainAttribute.FormatErrorMessage
+  nameWithType: DoesNotContainAttribute.FormatErrorMessage
+- uid: Valkyrie.DoesNotContainAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+  name: IsValid(object, ValidationContext)
+  href: api/Valkyrie.DoesNotContainAttribute.html#Valkyrie_DoesNotContainAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_
+  commentId: M:Valkyrie.DoesNotContainAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+  name.vb: IsValid(Object, ValidationContext)
+  fullName: Valkyrie.DoesNotContainAttribute.IsValid(object, System.ComponentModel.DataAnnotations.ValidationContext)
+  fullName.vb: Valkyrie.DoesNotContainAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)
+  nameWithType: DoesNotContainAttribute.IsValid(object, ValidationContext)
+  nameWithType.vb: DoesNotContainAttribute.IsValid(Object, ValidationContext)
+- uid: Valkyrie.DoesNotContainAttribute.IsValid*
+  name: IsValid
+  href: api/Valkyrie.DoesNotContainAttribute.html#Valkyrie_DoesNotContainAttribute_IsValid_
+  commentId: Overload:Valkyrie.DoesNotContainAttribute.IsValid
+  isSpec: "True"
+  fullName: Valkyrie.DoesNotContainAttribute.IsValid
+  nameWithType: DoesNotContainAttribute.IsValid
+- uid: Valkyrie.DoesNotContainAttribute.Value
+  name: Value
+  href: api/Valkyrie.DoesNotContainAttribute.html#Valkyrie_DoesNotContainAttribute_Value
+  commentId: P:Valkyrie.DoesNotContainAttribute.Value
+  fullName: Valkyrie.DoesNotContainAttribute.Value
+  nameWithType: DoesNotContainAttribute.Value
+- uid: Valkyrie.DoesNotContainAttribute.Value*
+  name: Value
+  href: api/Valkyrie.DoesNotContainAttribute.html#Valkyrie_DoesNotContainAttribute_Value_
+  commentId: Overload:Valkyrie.DoesNotContainAttribute.Value
+  isSpec: "True"
+  fullName: Valkyrie.DoesNotContainAttribute.Value
+  nameWithType: DoesNotContainAttribute.Value
+- uid: Valkyrie.EmptyAttribute
+  name: EmptyAttribute
+  href: api/Valkyrie.EmptyAttribute.html
+  commentId: T:Valkyrie.EmptyAttribute
+  fullName: Valkyrie.EmptyAttribute
+  nameWithType: EmptyAttribute
+- uid: Valkyrie.EmptyAttribute.#ctor(System.String)
+  name: EmptyAttribute(string)
+  href: api/Valkyrie.EmptyAttribute.html#Valkyrie_EmptyAttribute__ctor_System_String_
+  commentId: M:Valkyrie.EmptyAttribute.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Valkyrie.EmptyAttribute.EmptyAttribute(string)
+  fullName.vb: Valkyrie.EmptyAttribute.New(String)
+  nameWithType: EmptyAttribute.EmptyAttribute(string)
+  nameWithType.vb: EmptyAttribute.New(String)
+- uid: Valkyrie.EmptyAttribute.#ctor*
+  name: EmptyAttribute
+  href: api/Valkyrie.EmptyAttribute.html#Valkyrie_EmptyAttribute__ctor_
+  commentId: Overload:Valkyrie.EmptyAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Valkyrie.EmptyAttribute.EmptyAttribute
+  fullName.vb: Valkyrie.EmptyAttribute.New
+  nameWithType: EmptyAttribute.EmptyAttribute
+  nameWithType.vb: EmptyAttribute.New
+- uid: Valkyrie.EmptyAttribute.FormatErrorMessage(System.String)
+  name: FormatErrorMessage(string)
+  href: api/Valkyrie.EmptyAttribute.html#Valkyrie_EmptyAttribute_FormatErrorMessage_System_String_
+  commentId: M:Valkyrie.EmptyAttribute.FormatErrorMessage(System.String)
+  name.vb: FormatErrorMessage(String)
+  fullName: Valkyrie.EmptyAttribute.FormatErrorMessage(string)
+  fullName.vb: Valkyrie.EmptyAttribute.FormatErrorMessage(String)
+  nameWithType: EmptyAttribute.FormatErrorMessage(string)
+  nameWithType.vb: EmptyAttribute.FormatErrorMessage(String)
+- uid: Valkyrie.EmptyAttribute.FormatErrorMessage*
+  name: FormatErrorMessage
+  href: api/Valkyrie.EmptyAttribute.html#Valkyrie_EmptyAttribute_FormatErrorMessage_
+  commentId: Overload:Valkyrie.EmptyAttribute.FormatErrorMessage
+  isSpec: "True"
+  fullName: Valkyrie.EmptyAttribute.FormatErrorMessage
+  nameWithType: EmptyAttribute.FormatErrorMessage
+- uid: Valkyrie.EmptyAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+  name: IsValid(object, ValidationContext)
+  href: api/Valkyrie.EmptyAttribute.html#Valkyrie_EmptyAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_
+  commentId: M:Valkyrie.EmptyAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+  name.vb: IsValid(Object, ValidationContext)
+  fullName: Valkyrie.EmptyAttribute.IsValid(object, System.ComponentModel.DataAnnotations.ValidationContext)
+  fullName.vb: Valkyrie.EmptyAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)
+  nameWithType: EmptyAttribute.IsValid(object, ValidationContext)
+  nameWithType.vb: EmptyAttribute.IsValid(Object, ValidationContext)
+- uid: Valkyrie.EmptyAttribute.IsValid*
+  name: IsValid
+  href: api/Valkyrie.EmptyAttribute.html#Valkyrie_EmptyAttribute_IsValid_
+  commentId: Overload:Valkyrie.EmptyAttribute.IsValid
+  isSpec: "True"
+  fullName: Valkyrie.EmptyAttribute.IsValid
+  nameWithType: EmptyAttribute.IsValid
+- uid: Valkyrie.IsAttribute
+  name: IsAttribute
+  href: api/Valkyrie.IsAttribute.html
+  commentId: T:Valkyrie.IsAttribute
+  fullName: Valkyrie.IsAttribute
+  nameWithType: IsAttribute
+- uid: Valkyrie.IsAttribute.#ctor(Valkyrie.IsValid,System.String)
+  name: IsAttribute(IsValid, string)
+  href: api/Valkyrie.IsAttribute.html#Valkyrie_IsAttribute__ctor_Valkyrie_IsValid_System_String_
+  commentId: M:Valkyrie.IsAttribute.#ctor(Valkyrie.IsValid,System.String)
+  name.vb: New(IsValid, String)
+  fullName: Valkyrie.IsAttribute.IsAttribute(Valkyrie.IsValid, string)
+  fullName.vb: Valkyrie.IsAttribute.New(Valkyrie.IsValid, String)
+  nameWithType: IsAttribute.IsAttribute(IsValid, string)
+  nameWithType.vb: IsAttribute.New(IsValid, String)
+- uid: Valkyrie.IsAttribute.#ctor*
+  name: IsAttribute
+  href: api/Valkyrie.IsAttribute.html#Valkyrie_IsAttribute__ctor_
+  commentId: Overload:Valkyrie.IsAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Valkyrie.IsAttribute.IsAttribute
+  fullName.vb: Valkyrie.IsAttribute.New
+  nameWithType: IsAttribute.IsAttribute
+  nameWithType.vb: IsAttribute.New
+- uid: Valkyrie.IsAttribute.FormatErrorMessage(System.String)
+  name: FormatErrorMessage(string)
+  href: api/Valkyrie.IsAttribute.html#Valkyrie_IsAttribute_FormatErrorMessage_System_String_
+  commentId: M:Valkyrie.IsAttribute.FormatErrorMessage(System.String)
+  name.vb: FormatErrorMessage(String)
+  fullName: Valkyrie.IsAttribute.FormatErrorMessage(string)
+  fullName.vb: Valkyrie.IsAttribute.FormatErrorMessage(String)
+  nameWithType: IsAttribute.FormatErrorMessage(string)
+  nameWithType.vb: IsAttribute.FormatErrorMessage(String)
+- uid: Valkyrie.IsAttribute.FormatErrorMessage*
+  name: FormatErrorMessage
+  href: api/Valkyrie.IsAttribute.html#Valkyrie_IsAttribute_FormatErrorMessage_
+  commentId: Overload:Valkyrie.IsAttribute.FormatErrorMessage
+  isSpec: "True"
+  fullName: Valkyrie.IsAttribute.FormatErrorMessage
+  nameWithType: IsAttribute.FormatErrorMessage
+- uid: Valkyrie.IsAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+  name: IsValid(object, ValidationContext)
+  href: api/Valkyrie.IsAttribute.html#Valkyrie_IsAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_
+  commentId: M:Valkyrie.IsAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+  name.vb: IsValid(Object, ValidationContext)
+  fullName: Valkyrie.IsAttribute.IsValid(object, System.ComponentModel.DataAnnotations.ValidationContext)
+  fullName.vb: Valkyrie.IsAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)
+  nameWithType: IsAttribute.IsValid(object, ValidationContext)
+  nameWithType.vb: IsAttribute.IsValid(Object, ValidationContext)
+- uid: Valkyrie.IsAttribute.IsValid*
+  name: IsValid
+  href: api/Valkyrie.IsAttribute.html#Valkyrie_IsAttribute_IsValid_
+  commentId: Overload:Valkyrie.IsAttribute.IsValid
+  isSpec: "True"
+  fullName: Valkyrie.IsAttribute.IsValid
+  nameWithType: IsAttribute.IsValid
+- uid: Valkyrie.IsAttribute.Type
+  name: Type
+  href: api/Valkyrie.IsAttribute.html#Valkyrie_IsAttribute_Type
+  commentId: P:Valkyrie.IsAttribute.Type
+  fullName: Valkyrie.IsAttribute.Type
+  nameWithType: IsAttribute.Type
+- uid: Valkyrie.IsAttribute.Type*
+  name: Type
+  href: api/Valkyrie.IsAttribute.html#Valkyrie_IsAttribute_Type_
+  commentId: Overload:Valkyrie.IsAttribute.Type
+  isSpec: "True"
+  fullName: Valkyrie.IsAttribute.Type
+  nameWithType: IsAttribute.Type
+- uid: Valkyrie.IsValid
+  name: IsValid
+  href: api/Valkyrie.IsValid.html
+  commentId: T:Valkyrie.IsValid
+  fullName: Valkyrie.IsValid
+  nameWithType: IsValid
+- uid: Valkyrie.IsValid.CreditCard
+  name: CreditCard
+  href: api/Valkyrie.IsValid.html#Valkyrie_IsValid_CreditCard
+  commentId: F:Valkyrie.IsValid.CreditCard
+  fullName: Valkyrie.IsValid.CreditCard
+  nameWithType: IsValid.CreditCard
+- uid: Valkyrie.IsValid.Decimal
+  name: Decimal
+  href: api/Valkyrie.IsValid.html#Valkyrie_IsValid_Decimal
+  commentId: F:Valkyrie.IsValid.Decimal
+  fullName: Valkyrie.IsValid.Decimal
+  nameWithType: IsValid.Decimal
+- uid: Valkyrie.IsValid.Domain
+  name: Domain
+  href: api/Valkyrie.IsValid.html#Valkyrie_IsValid_Domain
+  commentId: F:Valkyrie.IsValid.Domain
+  fullName: Valkyrie.IsValid.Domain
+  nameWithType: IsValid.Domain
+- uid: Valkyrie.IsValid.Integer
+  name: Integer
+  href: api/Valkyrie.IsValid.html#Valkyrie_IsValid_Integer
+  commentId: F:Valkyrie.IsValid.Integer
+  fullName: Valkyrie.IsValid.Integer
+  nameWithType: IsValid.Integer
+- uid: Valkyrie.MaxLengthAttribute
+  name: MaxLengthAttribute
+  href: api/Valkyrie.MaxLengthAttribute.html
+  commentId: T:Valkyrie.MaxLengthAttribute
+  fullName: Valkyrie.MaxLengthAttribute
+  nameWithType: MaxLengthAttribute
+- uid: Valkyrie.MaxLengthAttribute.#ctor(System.Int64,System.String)
+  name: MaxLengthAttribute(long, string)
+  href: api/Valkyrie.MaxLengthAttribute.html#Valkyrie_MaxLengthAttribute__ctor_System_Int64_System_String_
+  commentId: M:Valkyrie.MaxLengthAttribute.#ctor(System.Int64,System.String)
+  name.vb: New(Long, String)
+  fullName: Valkyrie.MaxLengthAttribute.MaxLengthAttribute(long, string)
+  fullName.vb: Valkyrie.MaxLengthAttribute.New(Long, String)
+  nameWithType: MaxLengthAttribute.MaxLengthAttribute(long, string)
+  nameWithType.vb: MaxLengthAttribute.New(Long, String)
+- uid: Valkyrie.MaxLengthAttribute.#ctor*
+  name: MaxLengthAttribute
+  href: api/Valkyrie.MaxLengthAttribute.html#Valkyrie_MaxLengthAttribute__ctor_
+  commentId: Overload:Valkyrie.MaxLengthAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Valkyrie.MaxLengthAttribute.MaxLengthAttribute
+  fullName.vb: Valkyrie.MaxLengthAttribute.New
+  nameWithType: MaxLengthAttribute.MaxLengthAttribute
+  nameWithType.vb: MaxLengthAttribute.New
+- uid: Valkyrie.MaxLengthAttribute.FormatErrorMessage(System.String)
+  name: FormatErrorMessage(string)
+  href: api/Valkyrie.MaxLengthAttribute.html#Valkyrie_MaxLengthAttribute_FormatErrorMessage_System_String_
+  commentId: M:Valkyrie.MaxLengthAttribute.FormatErrorMessage(System.String)
+  name.vb: FormatErrorMessage(String)
+  fullName: Valkyrie.MaxLengthAttribute.FormatErrorMessage(string)
+  fullName.vb: Valkyrie.MaxLengthAttribute.FormatErrorMessage(String)
+  nameWithType: MaxLengthAttribute.FormatErrorMessage(string)
+  nameWithType.vb: MaxLengthAttribute.FormatErrorMessage(String)
+- uid: Valkyrie.MaxLengthAttribute.FormatErrorMessage*
+  name: FormatErrorMessage
+  href: api/Valkyrie.MaxLengthAttribute.html#Valkyrie_MaxLengthAttribute_FormatErrorMessage_
+  commentId: Overload:Valkyrie.MaxLengthAttribute.FormatErrorMessage
+  isSpec: "True"
+  fullName: Valkyrie.MaxLengthAttribute.FormatErrorMessage
+  nameWithType: MaxLengthAttribute.FormatErrorMessage
+- uid: Valkyrie.MaxLengthAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+  name: IsValid(object, ValidationContext)
+  href: api/Valkyrie.MaxLengthAttribute.html#Valkyrie_MaxLengthAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_
+  commentId: M:Valkyrie.MaxLengthAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+  name.vb: IsValid(Object, ValidationContext)
+  fullName: Valkyrie.MaxLengthAttribute.IsValid(object, System.ComponentModel.DataAnnotations.ValidationContext)
+  fullName.vb: Valkyrie.MaxLengthAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)
+  nameWithType: MaxLengthAttribute.IsValid(object, ValidationContext)
+  nameWithType.vb: MaxLengthAttribute.IsValid(Object, ValidationContext)
+- uid: Valkyrie.MaxLengthAttribute.IsValid*
+  name: IsValid
+  href: api/Valkyrie.MaxLengthAttribute.html#Valkyrie_MaxLengthAttribute_IsValid_
+  commentId: Overload:Valkyrie.MaxLengthAttribute.IsValid
+  isSpec: "True"
+  fullName: Valkyrie.MaxLengthAttribute.IsValid
+  nameWithType: MaxLengthAttribute.IsValid
+- uid: Valkyrie.MaxLengthAttribute.Value
+  name: Value
+  href: api/Valkyrie.MaxLengthAttribute.html#Valkyrie_MaxLengthAttribute_Value
+  commentId: P:Valkyrie.MaxLengthAttribute.Value
+  fullName: Valkyrie.MaxLengthAttribute.Value
+  nameWithType: MaxLengthAttribute.Value
+- uid: Valkyrie.MaxLengthAttribute.Value*
+  name: Value
+  href: api/Valkyrie.MaxLengthAttribute.html#Valkyrie_MaxLengthAttribute_Value_
+  commentId: Overload:Valkyrie.MaxLengthAttribute.Value
+  isSpec: "True"
+  fullName: Valkyrie.MaxLengthAttribute.Value
+  nameWithType: MaxLengthAttribute.Value
+- uid: Valkyrie.MinLengthAttribute
+  name: MinLengthAttribute
+  href: api/Valkyrie.MinLengthAttribute.html
+  commentId: T:Valkyrie.MinLengthAttribute
+  fullName: Valkyrie.MinLengthAttribute
+  nameWithType: MinLengthAttribute
+- uid: Valkyrie.MinLengthAttribute.#ctor(System.Int64,System.String)
+  name: MinLengthAttribute(long, string)
+  href: api/Valkyrie.MinLengthAttribute.html#Valkyrie_MinLengthAttribute__ctor_System_Int64_System_String_
+  commentId: M:Valkyrie.MinLengthAttribute.#ctor(System.Int64,System.String)
+  name.vb: New(Long, String)
+  fullName: Valkyrie.MinLengthAttribute.MinLengthAttribute(long, string)
+  fullName.vb: Valkyrie.MinLengthAttribute.New(Long, String)
+  nameWithType: MinLengthAttribute.MinLengthAttribute(long, string)
+  nameWithType.vb: MinLengthAttribute.New(Long, String)
+- uid: Valkyrie.MinLengthAttribute.#ctor*
+  name: MinLengthAttribute
+  href: api/Valkyrie.MinLengthAttribute.html#Valkyrie_MinLengthAttribute__ctor_
+  commentId: Overload:Valkyrie.MinLengthAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Valkyrie.MinLengthAttribute.MinLengthAttribute
+  fullName.vb: Valkyrie.MinLengthAttribute.New
+  nameWithType: MinLengthAttribute.MinLengthAttribute
+  nameWithType.vb: MinLengthAttribute.New
+- uid: Valkyrie.MinLengthAttribute.FormatErrorMessage(System.String)
+  name: FormatErrorMessage(string)
+  href: api/Valkyrie.MinLengthAttribute.html#Valkyrie_MinLengthAttribute_FormatErrorMessage_System_String_
+  commentId: M:Valkyrie.MinLengthAttribute.FormatErrorMessage(System.String)
+  name.vb: FormatErrorMessage(String)
+  fullName: Valkyrie.MinLengthAttribute.FormatErrorMessage(string)
+  fullName.vb: Valkyrie.MinLengthAttribute.FormatErrorMessage(String)
+  nameWithType: MinLengthAttribute.FormatErrorMessage(string)
+  nameWithType.vb: MinLengthAttribute.FormatErrorMessage(String)
+- uid: Valkyrie.MinLengthAttribute.FormatErrorMessage*
+  name: FormatErrorMessage
+  href: api/Valkyrie.MinLengthAttribute.html#Valkyrie_MinLengthAttribute_FormatErrorMessage_
+  commentId: Overload:Valkyrie.MinLengthAttribute.FormatErrorMessage
+  isSpec: "True"
+  fullName: Valkyrie.MinLengthAttribute.FormatErrorMessage
+  nameWithType: MinLengthAttribute.FormatErrorMessage
+- uid: Valkyrie.MinLengthAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+  name: IsValid(object, ValidationContext)
+  href: api/Valkyrie.MinLengthAttribute.html#Valkyrie_MinLengthAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_
+  commentId: M:Valkyrie.MinLengthAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+  name.vb: IsValid(Object, ValidationContext)
+  fullName: Valkyrie.MinLengthAttribute.IsValid(object, System.ComponentModel.DataAnnotations.ValidationContext)
+  fullName.vb: Valkyrie.MinLengthAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)
+  nameWithType: MinLengthAttribute.IsValid(object, ValidationContext)
+  nameWithType.vb: MinLengthAttribute.IsValid(Object, ValidationContext)
+- uid: Valkyrie.MinLengthAttribute.IsValid*
+  name: IsValid
+  href: api/Valkyrie.MinLengthAttribute.html#Valkyrie_MinLengthAttribute_IsValid_
+  commentId: Overload:Valkyrie.MinLengthAttribute.IsValid
+  isSpec: "True"
+  fullName: Valkyrie.MinLengthAttribute.IsValid
+  nameWithType: MinLengthAttribute.IsValid
+- uid: Valkyrie.MinLengthAttribute.Value
+  name: Value
+  href: api/Valkyrie.MinLengthAttribute.html#Valkyrie_MinLengthAttribute_Value
+  commentId: P:Valkyrie.MinLengthAttribute.Value
+  fullName: Valkyrie.MinLengthAttribute.Value
+  nameWithType: MinLengthAttribute.Value
+- uid: Valkyrie.MinLengthAttribute.Value*
+  name: Value
+  href: api/Valkyrie.MinLengthAttribute.html#Valkyrie_MinLengthAttribute_Value_
+  commentId: Overload:Valkyrie.MinLengthAttribute.Value
+  isSpec: "True"
+  fullName: Valkyrie.MinLengthAttribute.Value
+  nameWithType: MinLengthAttribute.Value
+- uid: Valkyrie.NotEmptyAttribute
+  name: NotEmptyAttribute
+  href: api/Valkyrie.NotEmptyAttribute.html
+  commentId: T:Valkyrie.NotEmptyAttribute
+  fullName: Valkyrie.NotEmptyAttribute
+  nameWithType: NotEmptyAttribute
+- uid: Valkyrie.NotEmptyAttribute.#ctor(System.String)
+  name: NotEmptyAttribute(string)
+  href: api/Valkyrie.NotEmptyAttribute.html#Valkyrie_NotEmptyAttribute__ctor_System_String_
+  commentId: M:Valkyrie.NotEmptyAttribute.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Valkyrie.NotEmptyAttribute.NotEmptyAttribute(string)
+  fullName.vb: Valkyrie.NotEmptyAttribute.New(String)
+  nameWithType: NotEmptyAttribute.NotEmptyAttribute(string)
+  nameWithType.vb: NotEmptyAttribute.New(String)
+- uid: Valkyrie.NotEmptyAttribute.#ctor*
+  name: NotEmptyAttribute
+  href: api/Valkyrie.NotEmptyAttribute.html#Valkyrie_NotEmptyAttribute__ctor_
+  commentId: Overload:Valkyrie.NotEmptyAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Valkyrie.NotEmptyAttribute.NotEmptyAttribute
+  fullName.vb: Valkyrie.NotEmptyAttribute.New
+  nameWithType: NotEmptyAttribute.NotEmptyAttribute
+  nameWithType.vb: NotEmptyAttribute.New
+- uid: Valkyrie.NotEmptyAttribute.FormatErrorMessage(System.String)
+  name: FormatErrorMessage(string)
+  href: api/Valkyrie.NotEmptyAttribute.html#Valkyrie_NotEmptyAttribute_FormatErrorMessage_System_String_
+  commentId: M:Valkyrie.NotEmptyAttribute.FormatErrorMessage(System.String)
+  name.vb: FormatErrorMessage(String)
+  fullName: Valkyrie.NotEmptyAttribute.FormatErrorMessage(string)
+  fullName.vb: Valkyrie.NotEmptyAttribute.FormatErrorMessage(String)
+  nameWithType: NotEmptyAttribute.FormatErrorMessage(string)
+  nameWithType.vb: NotEmptyAttribute.FormatErrorMessage(String)
+- uid: Valkyrie.NotEmptyAttribute.FormatErrorMessage*
+  name: FormatErrorMessage
+  href: api/Valkyrie.NotEmptyAttribute.html#Valkyrie_NotEmptyAttribute_FormatErrorMessage_
+  commentId: Overload:Valkyrie.NotEmptyAttribute.FormatErrorMessage
+  isSpec: "True"
+  fullName: Valkyrie.NotEmptyAttribute.FormatErrorMessage
+  nameWithType: NotEmptyAttribute.FormatErrorMessage
+- uid: Valkyrie.NotEmptyAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+  name: IsValid(object, ValidationContext)
+  href: api/Valkyrie.NotEmptyAttribute.html#Valkyrie_NotEmptyAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_
+  commentId: M:Valkyrie.NotEmptyAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+  name.vb: IsValid(Object, ValidationContext)
+  fullName: Valkyrie.NotEmptyAttribute.IsValid(object, System.ComponentModel.DataAnnotations.ValidationContext)
+  fullName.vb: Valkyrie.NotEmptyAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)
+  nameWithType: NotEmptyAttribute.IsValid(object, ValidationContext)
+  nameWithType.vb: NotEmptyAttribute.IsValid(Object, ValidationContext)
+- uid: Valkyrie.NotEmptyAttribute.IsValid*
+  name: IsValid
+  href: api/Valkyrie.NotEmptyAttribute.html#Valkyrie_NotEmptyAttribute_IsValid_
+  commentId: Overload:Valkyrie.NotEmptyAttribute.IsValid
+  isSpec: "True"
+  fullName: Valkyrie.NotEmptyAttribute.IsValid
+  nameWithType: NotEmptyAttribute.IsValid
+- uid: Valkyrie.NotInRangeAttribute
+  name: NotInRangeAttribute
+  href: api/Valkyrie.NotInRangeAttribute.html
+  commentId: T:Valkyrie.NotInRangeAttribute
+  fullName: Valkyrie.NotInRangeAttribute
+  nameWithType: NotInRangeAttribute
+- uid: Valkyrie.NotInRangeAttribute.#ctor(System.Object,System.Object,System.String)
+  name: NotInRangeAttribute(object, object, string)
+  href: api/Valkyrie.NotInRangeAttribute.html#Valkyrie_NotInRangeAttribute__ctor_System_Object_System_Object_System_String_
+  commentId: M:Valkyrie.NotInRangeAttribute.#ctor(System.Object,System.Object,System.String)
+  name.vb: New(Object, Object, String)
+  fullName: Valkyrie.NotInRangeAttribute.NotInRangeAttribute(object, object, string)
+  fullName.vb: Valkyrie.NotInRangeAttribute.New(Object, Object, String)
+  nameWithType: NotInRangeAttribute.NotInRangeAttribute(object, object, string)
+  nameWithType.vb: NotInRangeAttribute.New(Object, Object, String)
+- uid: Valkyrie.NotInRangeAttribute.#ctor*
+  name: NotInRangeAttribute
+  href: api/Valkyrie.NotInRangeAttribute.html#Valkyrie_NotInRangeAttribute__ctor_
+  commentId: Overload:Valkyrie.NotInRangeAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Valkyrie.NotInRangeAttribute.NotInRangeAttribute
+  fullName.vb: Valkyrie.NotInRangeAttribute.New
+  nameWithType: NotInRangeAttribute.NotInRangeAttribute
+  nameWithType.vb: NotInRangeAttribute.New
+- uid: Valkyrie.NotInRangeAttribute.FormatErrorMessage(System.String)
+  name: FormatErrorMessage(string)
+  href: api/Valkyrie.NotInRangeAttribute.html#Valkyrie_NotInRangeAttribute_FormatErrorMessage_System_String_
+  commentId: M:Valkyrie.NotInRangeAttribute.FormatErrorMessage(System.String)
+  name.vb: FormatErrorMessage(String)
+  fullName: Valkyrie.NotInRangeAttribute.FormatErrorMessage(string)
+  fullName.vb: Valkyrie.NotInRangeAttribute.FormatErrorMessage(String)
+  nameWithType: NotInRangeAttribute.FormatErrorMessage(string)
+  nameWithType.vb: NotInRangeAttribute.FormatErrorMessage(String)
+- uid: Valkyrie.NotInRangeAttribute.FormatErrorMessage*
+  name: FormatErrorMessage
+  href: api/Valkyrie.NotInRangeAttribute.html#Valkyrie_NotInRangeAttribute_FormatErrorMessage_
+  commentId: Overload:Valkyrie.NotInRangeAttribute.FormatErrorMessage
+  isSpec: "True"
+  fullName: Valkyrie.NotInRangeAttribute.FormatErrorMessage
+  nameWithType: NotInRangeAttribute.FormatErrorMessage
+- uid: Valkyrie.NotInRangeAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+  name: IsValid(object, ValidationContext)
+  href: api/Valkyrie.NotInRangeAttribute.html#Valkyrie_NotInRangeAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_
+  commentId: M:Valkyrie.NotInRangeAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+  name.vb: IsValid(Object, ValidationContext)
+  fullName: Valkyrie.NotInRangeAttribute.IsValid(object, System.ComponentModel.DataAnnotations.ValidationContext)
+  fullName.vb: Valkyrie.NotInRangeAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)
+  nameWithType: NotInRangeAttribute.IsValid(object, ValidationContext)
+  nameWithType.vb: NotInRangeAttribute.IsValid(Object, ValidationContext)
+- uid: Valkyrie.NotInRangeAttribute.IsValid*
+  name: IsValid
+  href: api/Valkyrie.NotInRangeAttribute.html#Valkyrie_NotInRangeAttribute_IsValid_
+  commentId: Overload:Valkyrie.NotInRangeAttribute.IsValid
+  isSpec: "True"
+  fullName: Valkyrie.NotInRangeAttribute.IsValid
+  nameWithType: NotInRangeAttribute.IsValid
+- uid: Valkyrie.NotInRangeAttribute.Max
+  name: Max
+  href: api/Valkyrie.NotInRangeAttribute.html#Valkyrie_NotInRangeAttribute_Max
+  commentId: P:Valkyrie.NotInRangeAttribute.Max
+  fullName: Valkyrie.NotInRangeAttribute.Max
+  nameWithType: NotInRangeAttribute.Max
+- uid: Valkyrie.NotInRangeAttribute.Max*
+  name: Max
+  href: api/Valkyrie.NotInRangeAttribute.html#Valkyrie_NotInRangeAttribute_Max_
+  commentId: Overload:Valkyrie.NotInRangeAttribute.Max
+  isSpec: "True"
+  fullName: Valkyrie.NotInRangeAttribute.Max
+  nameWithType: NotInRangeAttribute.Max
+- uid: Valkyrie.NotInRangeAttribute.Min
+  name: Min
+  href: api/Valkyrie.NotInRangeAttribute.html#Valkyrie_NotInRangeAttribute_Min
+  commentId: P:Valkyrie.NotInRangeAttribute.Min
+  fullName: Valkyrie.NotInRangeAttribute.Min
+  nameWithType: NotInRangeAttribute.Min
+- uid: Valkyrie.NotInRangeAttribute.Min*
+  name: Min
+  href: api/Valkyrie.NotInRangeAttribute.html#Valkyrie_NotInRangeAttribute_Min_
+  commentId: Overload:Valkyrie.NotInRangeAttribute.Min
+  isSpec: "True"
+  fullName: Valkyrie.NotInRangeAttribute.Min
+  nameWithType: NotInRangeAttribute.Min

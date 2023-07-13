@@ -1,0 +1,261 @@
+{
+  "homepages": [],
+  "source_base_path": "/home/runner/work/Valkyrie/Valkyrie/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.Registration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.Registration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Valkyrie.BetweenAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Valkyrie.BetweenAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Valkyrie.CascadeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Valkyrie.CascadeAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Valkyrie.CompareAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Valkyrie.CompareAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Valkyrie.CompareToAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Valkyrie.CompareToAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Valkyrie.ComparisonType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Valkyrie.ComparisonType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Valkyrie.ContainsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Valkyrie.ContainsAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Valkyrie.DoesNotContainAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Valkyrie.DoesNotContainAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Valkyrie.EmptyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Valkyrie.EmptyAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Valkyrie.IsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Valkyrie.IsAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Valkyrie.IsValid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Valkyrie.IsValid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Valkyrie.MaxLengthAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Valkyrie.MaxLengthAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Valkyrie.MinLengthAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Valkyrie.MinLengthAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Valkyrie.NotEmptyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Valkyrie.NotEmptyAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Valkyrie.NotInRangeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Valkyrie.NotInRangeAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Valkyrie.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Valkyrie.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/icon.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
