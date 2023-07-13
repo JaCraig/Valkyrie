@@ -1,53 +1,57 @@
 # Valkyrie
 
-[![Build status](https://ci.appveyor.com/api/projects/status/tscmnl7u4gw19iad?svg=true)](https://ci.appveyor.com/project/JaCraig/valkyrie)
 
-Valkyrie is a validation library for .Net. It supports .Net Core, .Net 4.6, etc.
+Valkyrie is a simple set of data annotations and extension methods to help with validating your objects in .NET.
 
 ## Basic Usage
 
-The system relies on an IoC wrapper called [Canister](https://github.com/JaCraig/Canister). While Canister has a built in IoC container, it's purpose is to actually wrap your container of choice in a way that simplifies setup and usage for other libraries that don't want to be tied to a specific IoC container. As such you must set up Canister in order to use Valkyrie:
+For the most part, Valkyrie consists of DataAnnotations. To use Valkyrie, simply add the annotations to your properties as shown below:
 
-    Canister.Builder.CreateContainer(new List<ServiceDescriptor>())
-                    .RegisterValkyrie()
-                    .Build();
-					
-For the most part it's a collection of DataAnnotations and as such you just need to add them to your properties like this:
-
-    public class MyClass
-    {
-        [Cascade]
-        public MyOtherClass ItemA { get; set; }
-		
-		[Between("1/1/1900", "1/1/2100")]
-        public DateTime ItemB { get; set; }
-		
-		[Contains("A")]
-        public List<string> ItemC { get; set; }
-    }
+```csharp
+public class MyClass
+{
+    [Cascade]
+    public MyOtherClass ItemA { get; set; }
 	
-The System.ComponentModel.DataAnnotations.Validator class will automatically pick them up when validating your object. Also there are a couple of extension methods that are added to simplify validating an object:
-
-    var Results = new List<ValidationResult>();
-    bool DidItWork = MyObject.TryValidate(Results);
+    [Between("1/1/1900", "1/1/2100")]
+    public DateTime ItemB { get; set; }
 	
-and:
+    [Contains("A")]
+    public List<string> ItemC { get; set; }
+}
+```
 
-    MyObject.Validate();
-	
-TryValidate will return the list of validation results while Validate will simply throw a ValidationException if there is an issue with validating your object.
+The `System.ComponentModel.DataAnnotations.Validator` class will automatically pick up these annotations when validating your object. Additionally, there are a couple of extension methods added to simplify object validation:
+
+```csharp
+var results = new List<ValidationResult>();
+bool didItWork = MyObject.TryValidate(results);
+```
+
+And:
+
+```csharp
+MyObject.Validate();
+```
+
+The `TryValidate` method returns a list of validation results, while the `Validate` method throws a `ValidationException` if there are any issues with validating your object.
 
 ## Installation
 
-The library is available via Nuget with the package name "Valkyrie". To install it run the following command in the Package Manager Console:
+The library is available on NuGet with the package name "Valkyrie." To install it, run the following command in the Package Manager Console:
 
+```
 Install-Package Valkyrie
+```
 
 ## Build Process
 
-In order to build the library you will require the following as a minimum:
+To build the library, make sure you have the following minimum requirements:
 
-1. Visual Studio 2015 with Update 3
-2. .Net Core 1.0 SDK
+- Visual Studio 2022
 
-Other than that, just clone the project and you should be able to load the solution and build without too much effort.
+Simply clone the project and load the solution in Visual Studio. You should be able to build it without much effort.
+
+## Contributing
+
+We welcome contributions to Valkyrie. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request. We appreciate your support!
