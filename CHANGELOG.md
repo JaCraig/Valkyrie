@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.3"></a>
+## [4.0.3](https://www.github.com/JaCraig/Valkyrie/releases/tag/v4.0.3) (2023-7-13)
+
+### Bug Fixes
+
+* package update ([4583031](https://www.github.com/JaCraig/Valkyrie/commit/4583031bdd724276779846ad15f03a47a44f2f73))
+
+### Other
+
+* Update dependabot.yml ([0919036](https://www.github.com/JaCraig/Valkyrie/commit/09190363fca66639438de8b22da632fd49a13900))
+
 <a name="4.0.2"></a>
 ## [4.0.2](https://www.github.com/JaCraig/Valkyrie/releases/tag/v4.0.2) (2023-7-13)
 
