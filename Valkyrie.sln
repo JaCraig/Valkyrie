@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{835D6FC1-8E43-4861-87DA-EC05A707A567}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D8F1A20C-BD30-4539-958E-154A136D42E4}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CB64B9BE-E0FB-4497-A86E-C79023F5A0EC}"
 EndProject
@@ -13,7 +16,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Valkyrie", "src\Valkyrie\Va
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Valkyrie.Tests", "test\Valkyrie.Tests\Valkyrie.Tests.csproj", "{00E84A8A-CA38-434F-8303-F5225E1AE53D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valkyrie.Example", "Valkyrie.Example\Valkyrie.Example.csproj", "{C3055A7F-958E-4600-86AC-DAB29B901876}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Valkyrie.Example", "Valkyrie.Example\Valkyrie.Example.csproj", "{C3055A7F-958E-4600-86AC-DAB29B901876}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
