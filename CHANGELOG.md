@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.5"></a>
+## [4.0.5](https://www.github.com/JaCraig/Valkyrie/releases/tag/v4.0.5) (2023-7-25)
+
+### Bug Fixes
+
+* bump the dependencies group with 1 update ([f2cb18f](https://www.github.com/JaCraig/Valkyrie/commit/f2cb18f9fb2379321c132b5c825465bf4783af2c))
+
+### Other
+
+* Merge pull request #3 from JaCraig/dependabot/github_actions/dependencies-0717129e0a ([544c92c](https://www.github.com/JaCraig/Valkyrie/commit/544c92cae7a5d4757fcfe0f93d95cca50937ddfd))
+* Merge pull request #4 from JaCraig/dependabot/nuget/dependencies-11a6826ceb ([3a9af73](https://www.github.com/JaCraig/Valkyrie/commit/3a9af73df23b534489ae1e5a3fabfe73022e84e4))
+* Adding editorconfig ([dfc5165](https://www.github.com/JaCraig/Valkyrie/commit/dfc51657aaf8f85f9edf217451deee8960667c46))
+* bump the dependencies group with 2 updates ([5d7f710](https://www.github.com/JaCraig/Valkyrie/commit/5d7f710678712532c6aaaa3ad2a8fbacb96ac2a2))
+* dependabot update ([13fe9be](https://www.github.com/JaCraig/Valkyrie/commit/13fe9be8c7481e3daafb1f4bc78ae214cd365db3))
+
 <a name="4.0.4"></a>
 ## [4.0.4](https://www.github.com/JaCraig/Valkyrie/releases/tag/v4.0.4) (2023-7-13)
 
