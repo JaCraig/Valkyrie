@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.8"></a>
+## [4.0.8](https://www.github.com/JaCraig/Valkyrie/releases/tag/v4.0.8) (2023-8-8)
+
+### Bug Fixes
+
+* bump the dependencies group with 1 update ([068f42b](https://www.github.com/JaCraig/Valkyrie/commit/068f42b24df0d43810206aafd4b4fb23d3f58276))
+
+### Other
+
+* Merge pull request #7 from JaCraig/dependabot/nuget/dependencies-f7480c37a5 ([233ac1b](https://www.github.com/JaCraig/Valkyrie/commit/233ac1b893a3780868e83204003f261668a7e9d6))
+* Update dependabot.yml ([250bf5c](https://www.github.com/JaCraig/Valkyrie/commit/250bf5c0cbe50bdbb3589d766d80a34522096d1b))
+
 <a name="4.0.7"></a>
 ## [4.0.7](https://www.github.com/JaCraig/Valkyrie/releases/tag/v4.0.7) (2023-8-7)
 
