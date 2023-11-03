@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.32"></a>
+## [4.0.32](https://www.github.com/JaCraig/Valkyrie/releases/tag/v4.0.32) (2023-11-03)
+
+### Bug Fixes
+
+* bump the dependencies group with 1 update ([c0363f8](https://www.github.com/JaCraig/Valkyrie/commit/c0363f8b6ac4ef78cd0569d19379496b185f6b53))
+
+### Other
+
+* Merge pull request #38 from JaCraig/dependabot/nuget/test/Valkyrie.Tests/dependencies-7cf140af72 ([ec772b3](https://www.github.com/JaCraig/Valkyrie/commit/ec772b3ab79d7a46ef39fc668122195da512533b))
+* Merge pull request #39 from JaCraig/dependabot/nuget/test/Valkyrie.Tests/dependencies-0e5fbc1329 ([77f1b8f](https://www.github.com/JaCraig/Valkyrie/commit/77f1b8f0f314e7ce0d8e17c53e8896e0e68ddef1))
+* Merge pull request #40 from JaCraig/dependabot/nuget/dependencies-e44d31145b ([8bfb60c](https://www.github.com/JaCraig/Valkyrie/commit/8bfb60c12807f0a2dc0678c98d6c270b4f825a18))
+* bump the dependencies group in /test/Valkyrie.Tests with 1 update ([56cc1fc](https://www.github.com/JaCraig/Valkyrie/commit/56cc1fc49926493696bcbab31e141f705a82c3d6))
+* bump the dependencies group in /test/Valkyrie.Tests with 1 update ([238fc5a](https://www.github.com/JaCraig/Valkyrie/commit/238fc5a9872345a7188a9f89897137001e90d87f))
+
 <a name="4.0.31"></a>
 ## [4.0.31](https://www.github.com/JaCraig/Valkyrie/releases/tag/v4.0.31) (2023-10-31)
 
