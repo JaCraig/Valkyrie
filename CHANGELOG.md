@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.40"></a>
+## [4.0.40](https://www.github.com/JaCraig/Valkyrie/releases/tag/v4.0.40) (2023-12-12)
+
+### Bug Fixes
+
+* bump the dependencies group with 1 update ([8b4bdc7](https://www.github.com/JaCraig/Valkyrie/commit/8b4bdc7ed5195182add5ffe29de65fe994dd3971))
+
+### Other
+
+* Merge pull request #50 from JaCraig/dependabot/github_actions/dependencies-9d15ffb50c ([5863125](https://www.github.com/JaCraig/Valkyrie/commit/5863125fc4c7abc4bd10d17d9aa08cd3956d7f61))
+* Merge pull request #51 from JaCraig/dependabot/nuget/test/Valkyrie.Tests/dependencies-9380cae661 ([e526bdc](https://www.github.com/JaCraig/Valkyrie/commit/e526bdc32b8c75ac7a310efd97bbe231a0d7d194))
+* Merge pull request #52 from JaCraig/dependabot/nuget/dependencies-b7f5e8c31f ([47aaa52](https://www.github.com/JaCraig/Valkyrie/commit/47aaa5293d41464a3bff27c85e80798227acba78))
+* bump the dependencies group ([6bcb16f](https://www.github.com/JaCraig/Valkyrie/commit/6bcb16fb7b7ab6e3acde7fbf0d1cc52bbbb4e33e))
+* bump the dependencies group with 1 update ([22133c3](https://www.github.com/JaCraig/Valkyrie/commit/22133c3f5943b42267015728ad42fa03cf2b213d))
+* Fixing doc gen ([609465a](https://www.github.com/JaCraig/Valkyrie/commit/609465ada233e253004afe048c9c4a7f41c11517))
+
 <a name="4.0.39"></a>
 ## [4.0.39](https://www.github.com/JaCraig/Valkyrie/releases/tag/v4.0.39) (2023-11-23)
 
