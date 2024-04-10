@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.68"></a>
+## [4.0.68](https://www.github.com/JaCraig/Valkyrie/releases/tag/v4.0.68) (2024-04-10)
+
+### Bug Fixes
+
+* bump BigBook from 5.1.25 to 5.1.26 in the dependencies group ([62f24a6](https://www.github.com/JaCraig/Valkyrie/commit/62f24a637bd6e4425055c46ee189c12d919645e3))
+
+### Other
+
+* Merge pull request #92 from JaCraig/dependabot/github_actions/dependencies-45223d3826 ([46914d7](https://www.github.com/JaCraig/Valkyrie/commit/46914d7f4459efbcf8c8bbde05140ed6fec33103))
+* Merge pull request #93 from JaCraig/dependabot/nuget/dependencies-022c1db52a ([7e1c088](https://www.github.com/JaCraig/Valkyrie/commit/7e1c0885fbb9168a5352065d021e8f333a9bde4f))
+* bump peaceiris/actions-gh-pages in the dependencies group ([66830d9](https://www.github.com/JaCraig/Valkyrie/commit/66830d92b2dbe20eb85ca753440e5177f13a905c))
+
 <a name="4.0.67"></a>
 ## [4.0.67](https://www.github.com/JaCraig/Valkyrie/releases/tag/v4.0.67) (2024-03-29)
 
