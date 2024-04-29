@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.70"></a>
+## [4.0.70](https://www.github.com/JaCraig/Valkyrie/releases/tag/v4.0.70) (2024-04-29)
+
+### Bug Fixes
+
+* bump the dependencies group with 2 updates ([5dd82fc](https://www.github.com/JaCraig/Valkyrie/commit/5dd82fc60b1822318f609fb7e9d057ac03b18734))
+
+### Other
+
+* Merge pull request #95 from JaCraig/dependabot/nuget/test/Valkyrie.Tests/dependencies-fc8f0a2f2d ([55f5ba5](https://www.github.com/JaCraig/Valkyrie/commit/55f5ba5cea681df9912dc671d7ee3ec70881fd5a))
+* Merge pull request #96 from JaCraig/dependabot/github_actions/dependencies-67cf71b959 ([8dc46a3](https://www.github.com/JaCraig/Valkyrie/commit/8dc46a3d4feb03d6b948f3ae88b1aab276d806ed))
+* Merge pull request #97 from JaCraig/dependabot/nuget/dependencies-51355d8f44 ([ad81c84](https://www.github.com/JaCraig/Valkyrie/commit/ad81c842a67dee0938ad14b1fcbe6a4646efd524))
+* bump dependabot/fetch-metadata in the dependencies group ([2cb99d2](https://www.github.com/JaCraig/Valkyrie/commit/2cb99d2472f7bf7068ee86106316dfe99facb033))
+* bump the dependencies group ([51a358e](https://www.github.com/JaCraig/Valkyrie/commit/51a358ec6b93b69f73edc4a871ccda9a9a7b524e))
+
 <a name="4.0.69"></a>
 ## [4.0.69](https://www.github.com/JaCraig/Valkyrie/releases/tag/v4.0.69) (2024-04-11)
 
