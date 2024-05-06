@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.74"></a>
+## [4.0.74](https://www.github.com/JaCraig/Valkyrie/releases/tag/v4.0.74) (2024-05-06)
+
+### Bug Fixes
+
+* bump the dependencies group with 2 updates ([3d1b8d7](https://www.github.com/JaCraig/Valkyrie/commit/3d1b8d7fe1066472364cd2df9bca08498a379cb8))
+
+### Other
+
+* Merge pull request #102 from JaCraig/dependabot/nuget/dependencies-dd4c82564f ([af99b50](https://www.github.com/JaCraig/Valkyrie/commit/af99b506a95c9adaa83970c8239f5d37c7f08dba))
+
 <a name="4.0.73"></a>
 ## [4.0.73](https://www.github.com/JaCraig/Valkyrie/releases/tag/v4.0.73) (2024-05-02)
 
