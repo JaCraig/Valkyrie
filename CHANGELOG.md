@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.78"></a>
+## [4.0.78](https://www.github.com/JaCraig/Valkyrie/releases/tag/v4.0.78) (2024-05-29)
+
+### Bug Fixes
+
+* bump BigBook from 5.1.35 to 5.1.36 in the dependencies group ([bde0ae1](https://www.github.com/JaCraig/Valkyrie/commit/bde0ae167d9b881f4699beb314b5e443cf44b988))
+
+### Other
+
+* Merge pull request #106 from JaCraig/dependabot/nuget/test/Valkyrie.Tests/dependencies-d10d8338a5 ([8ed0211](https://www.github.com/JaCraig/Valkyrie/commit/8ed02112fc6e951fa05d9e17dee31351ba4c7814))
+* Merge pull request #107 from JaCraig/dependabot/nuget/test/Valkyrie.Tests/dependencies-63bf006411 ([b72fa83](https://www.github.com/JaCraig/Valkyrie/commit/b72fa83506e5ff84d9d0a02e2770a86a0c0a1365))
+* Merge pull request #108 from JaCraig/dependabot/nuget/dependencies-233bfabb76 ([0caa5d6](https://www.github.com/JaCraig/Valkyrie/commit/0caa5d6f40a8b1282c619331fd346a654ca1f067))
+* bump Microsoft.NET.Test.Sdk ([505dfba](https://www.github.com/JaCraig/Valkyrie/commit/505dfbaf1c2c70b0788b5ef2562a2b1cf11047d4))
+* bump the dependencies group ([b99507d](https://www.github.com/JaCraig/Valkyrie/commit/b99507d336955e24ec379aa699b8191f1197ef09))
+
 <a name="4.0.77"></a>
 ## [4.0.77](https://www.github.com/JaCraig/Valkyrie/releases/tag/v4.0.77) (2024-05-16)
 
