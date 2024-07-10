@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.86"></a>
+## [4.0.86](https://www.github.com/JaCraig/Valkyrie/releases/tag/v4.0.86) (2024-07-10)
+
+### Bug Fixes
+
+* bump BigBook from 5.1.44 to 5.1.45 in the dependencies group ([c204d37](https://www.github.com/JaCraig/Valkyrie/commit/c204d37d49b79c2d25bfc36365f90584571b5ee6))
+
+### Other
+
+* Merge pull request #116 from JaCraig/dependabot/github_actions/dependencies-c44bf69c3e ([b5180aa](https://www.github.com/JaCraig/Valkyrie/commit/b5180aa3b3bb36dfe216e26848cb5dcb8342acb7))
+* Merge pull request #117 from JaCraig/dependabot/nuget/test/Valkyrie.Tests/dependencies-8e312df114 ([9cc7255](https://www.github.com/JaCraig/Valkyrie/commit/9cc72551df658a744f8caec07de9455841c0146d))
+* Merge pull request #118 from JaCraig/dependabot/github_actions/dependencies-be62d4486d ([32254ee](https://www.github.com/JaCraig/Valkyrie/commit/32254ee367d5ecae7a5d43ba1263e8d0e5df41b7))
+* Merge pull request #119 from JaCraig/dependabot/nuget/dependencies-cae4647fe9 ([720f39d](https://www.github.com/JaCraig/Valkyrie/commit/720f39d6fe0559b1e6f2d5ee97dcb54add6bff1f))
+* bump actions/setup-dotnet in the dependencies group ([01e5528](https://www.github.com/JaCraig/Valkyrie/commit/01e5528aa5f358c7ec4f34f2de33c76a7b7509b2))
+* bump dependabot/fetch-metadata in the dependencies group ([24c4be9](https://www.github.com/JaCraig/Valkyrie/commit/24c4be9bed5b3888632fedf25891a278f907ecee))
+* bump the dependencies group ([3bb0913](https://www.github.com/JaCraig/Valkyrie/commit/3bb09135692feddfaa12b0d41ce4caf7e2d0ef87))
+
 <a name="4.0.85"></a>
 ## [4.0.85](https://www.github.com/JaCraig/Valkyrie/releases/tag/v4.0.85) (2024-06-26)
 
