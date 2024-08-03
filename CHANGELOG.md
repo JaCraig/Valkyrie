@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.88"></a>
+## [4.0.88](https://www.github.com/JaCraig/Valkyrie/releases/tag/v4.0.88) (2024-08-03)
+
+### Bug Fixes
+
+* bump BigBook from 5.1.46 to 5.1.47 in the dependencies group ([5bde927](https://www.github.com/JaCraig/Valkyrie/commit/5bde927d3846b05f37907105d31a4bb858307127))
+
+### Other
+
+* Merge pull request #121 from JaCraig/dependabot/nuget/dependencies-2afefb85ff ([b2beca4](https://www.github.com/JaCraig/Valkyrie/commit/b2beca4facdf4b2f24001cf75221f33182ab5c8d))
+
 <a name="4.0.87"></a>
 ## [4.0.87](https://www.github.com/JaCraig/Valkyrie/releases/tag/v4.0.87) (2024-07-24)
 
