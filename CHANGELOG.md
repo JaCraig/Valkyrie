@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.95"></a>
+## [4.0.95](https://www.github.com/JaCraig/Valkyrie/releases/tag/v4.0.95) (2024-10-09)
+
+### Bug Fixes
+
+* bump BigBook from 5.1.53 to 5.1.54 in the dependencies group ([5bf1add](https://www.github.com/JaCraig/Valkyrie/commit/5bf1addfb552cb077de83d3e75d0023415de31d6))
+
+### Other
+
+* Merge pull request #129 from JaCraig/dependabot/nuget/test/Valkyrie.Tests/dependencies-78c52a00e0 ([9991ce0](https://www.github.com/JaCraig/Valkyrie/commit/9991ce0f0f794f294a52fc0f66d1226fc1e55f16))
+* Merge pull request #130 from JaCraig/dependabot/nuget/test/Valkyrie.Tests/dependencies-e833257e60 ([5eaaeb8](https://www.github.com/JaCraig/Valkyrie/commit/5eaaeb8c6379bdc606b2ef884b2937ea57d5d006))
+* Merge pull request #131 from JaCraig/dependabot/nuget/test/Valkyrie.Tests/dependencies-799ab3113c ([be20ed6](https://www.github.com/JaCraig/Valkyrie/commit/be20ed6f3a4e7f320b7440a88ace511854844a61))
+* Merge pull request #132 from JaCraig/dependabot/nuget/dependencies-bfa9568804 ([923cf0b](https://www.github.com/JaCraig/Valkyrie/commit/923cf0bf0c001221a5e5bd1fe51ef709dabd7c88))
+* bump Microsoft.NET.Test.Sdk ([42b4c66](https://www.github.com/JaCraig/Valkyrie/commit/42b4c661d44a37ac33903651316696777f6b763a))
+* bump xunit in /test/Valkyrie.Tests in the dependencies group ([d30376f](https://www.github.com/JaCraig/Valkyrie/commit/d30376ffcfadbbfe0adb05296afcf19edb178d71))
+* bump xunit in /test/Valkyrie.Tests in the dependencies group ([dd2200c](https://www.github.com/JaCraig/Valkyrie/commit/dd2200c5d7fba9cd1badd7a13c93c9a34aa42287))
+
 <a name="4.0.94"></a>
 ## [4.0.94](https://www.github.com/JaCraig/Valkyrie/releases/tag/v4.0.94) (2024-08-28)
 
