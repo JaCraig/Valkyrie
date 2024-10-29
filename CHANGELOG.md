@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.97"></a>
+## [4.0.97](https://www.github.com/JaCraig/Valkyrie/releases/tag/v4.0.97) (2024-10-29)
+
+### Bug Fixes
+
+* bump the dependencies group with 2 updates ([4d3130e](https://www.github.com/JaCraig/Valkyrie/commit/4d3130eac2fb182a00b980a8f52ea82a1b228d85))
+* bump versionize from 2.0.0 to 2.1.0 in the dependencies group ([5a216b0](https://www.github.com/JaCraig/Valkyrie/commit/5a216b0a402bcde0a3d99ca7d29e7c258beb343e))
+
+### Other
+
+* Merge pull request #134 from JaCraig/dependabot/nuget/dependencies-e43804591a ([883dfce](https://www.github.com/JaCraig/Valkyrie/commit/883dfcea19c8f1886441b0385065a233e698d0fc))
+* Merge pull request #135 from JaCraig/dependabot/nuget/dependencies-3894128c1d ([2060cd5](https://www.github.com/JaCraig/Valkyrie/commit/2060cd55bf65ff59a9627d0926698de0b7861ddb))
+* Merge pull request #136 from JaCraig/dependabot/github_actions/dependencies-18190d55f2 ([b81b806](https://www.github.com/JaCraig/Valkyrie/commit/b81b8068aacb872064e64499dd336d102eaa998f))
+* Add .versionize configuration file ([906cc13](https://www.github.com/JaCraig/Valkyrie/commit/906cc13b21cb8a8c6187ca8dbeef4fbd3925e76d))
+* bump actions/setup-dotnet in the dependencies group ([2579046](https://www.github.com/JaCraig/Valkyrie/commit/2579046d509e1672ff1d516745cfc64fb8e8e78e))
+
 <a name="4.0.96"></a>
 ## [4.0.96](https://www.github.com/JaCraig/Valkyrie/releases/tag/v4.0.96) (2024-10-10)
 
