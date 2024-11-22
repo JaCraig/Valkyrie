@@ -1,34 +1,6 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: Microsoft.Extensions.DependencyInjection
-  name: Microsoft.Extensions.DependencyInjection
-  href: api/Microsoft.Extensions.DependencyInjection.html
-  commentId: N:Microsoft.Extensions.DependencyInjection
-  fullName: Microsoft.Extensions.DependencyInjection
-  nameWithType: Microsoft.Extensions.DependencyInjection
-- uid: Microsoft.Extensions.DependencyInjection.Registration
-  name: Registration
-  href: api/Microsoft.Extensions.DependencyInjection.Registration.html
-  commentId: T:Microsoft.Extensions.DependencyInjection.Registration
-  fullName: Microsoft.Extensions.DependencyInjection.Registration
-  nameWithType: Registration
-- uid: Microsoft.Extensions.DependencyInjection.Registration.RegisterValkyrie(Canister.Interfaces.ICanisterConfiguration)
-  name: RegisterValkyrie(ICanisterConfiguration?)
-  href: api/Microsoft.Extensions.DependencyInjection.Registration.html#Microsoft_Extensions_DependencyInjection_Registration_RegisterValkyrie_Canister_Interfaces_ICanisterConfiguration_
-  commentId: M:Microsoft.Extensions.DependencyInjection.Registration.RegisterValkyrie(Canister.Interfaces.ICanisterConfiguration)
-  name.vb: RegisterValkyrie(ICanisterConfiguration)
-  fullName: Microsoft.Extensions.DependencyInjection.Registration.RegisterValkyrie(Canister.Interfaces.ICanisterConfiguration?)
-  fullName.vb: Microsoft.Extensions.DependencyInjection.Registration.RegisterValkyrie(Canister.Interfaces.ICanisterConfiguration)
-  nameWithType: Registration.RegisterValkyrie(ICanisterConfiguration?)
-  nameWithType.vb: Registration.RegisterValkyrie(ICanisterConfiguration)
-- uid: Microsoft.Extensions.DependencyInjection.Registration.RegisterValkyrie*
-  name: RegisterValkyrie
-  href: api/Microsoft.Extensions.DependencyInjection.Registration.html#Microsoft_Extensions_DependencyInjection_Registration_RegisterValkyrie_
-  commentId: Overload:Microsoft.Extensions.DependencyInjection.Registration.RegisterValkyrie
-  isSpec: "True"
-  fullName: Microsoft.Extensions.DependencyInjection.Registration.RegisterValkyrie
-  nameWithType: Registration.RegisterValkyrie
 - uid: Valkyrie
   name: Valkyrie
   href: api/Valkyrie.html
@@ -77,13 +49,13 @@ references:
   fullName: Valkyrie.BetweenAttribute.FormatErrorMessage
   nameWithType: BetweenAttribute.FormatErrorMessage
 - uid: Valkyrie.BetweenAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
-  name: IsValid(object, ValidationContext)
+  name: IsValid(object?, ValidationContext)
   href: api/Valkyrie.BetweenAttribute.html#Valkyrie_BetweenAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_
   commentId: M:Valkyrie.BetweenAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
   name.vb: IsValid(Object, ValidationContext)
-  fullName: Valkyrie.BetweenAttribute.IsValid(object, System.ComponentModel.DataAnnotations.ValidationContext)
+  fullName: Valkyrie.BetweenAttribute.IsValid(object?, System.ComponentModel.DataAnnotations.ValidationContext)
   fullName.vb: Valkyrie.BetweenAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)
-  nameWithType: BetweenAttribute.IsValid(object, ValidationContext)
+  nameWithType: BetweenAttribute.IsValid(object?, ValidationContext)
   nameWithType.vb: BetweenAttribute.IsValid(Object, ValidationContext)
 - uid: Valkyrie.BetweenAttribute.IsValid*
   name: IsValid
@@ -144,13 +116,13 @@ references:
   nameWithType: CascadeAttribute.CascadeAttribute
   nameWithType.vb: CascadeAttribute.New
 - uid: Valkyrie.CascadeAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
-  name: IsValid(object, ValidationContext)
+  name: IsValid(object?, ValidationContext)
   href: api/Valkyrie.CascadeAttribute.html#Valkyrie_CascadeAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_
   commentId: M:Valkyrie.CascadeAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
   name.vb: IsValid(Object, ValidationContext)
-  fullName: Valkyrie.CascadeAttribute.IsValid(object, System.ComponentModel.DataAnnotations.ValidationContext)
+  fullName: Valkyrie.CascadeAttribute.IsValid(object?, System.ComponentModel.DataAnnotations.ValidationContext)
   fullName.vb: Valkyrie.CascadeAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)
-  nameWithType: CascadeAttribute.IsValid(object, ValidationContext)
+  nameWithType: CascadeAttribute.IsValid(object?, ValidationContext)
   nameWithType.vb: CascadeAttribute.IsValid(Object, ValidationContext)
 - uid: Valkyrie.CascadeAttribute.IsValid*
   name: IsValid
@@ -165,13 +137,13 @@ references:
   commentId: T:Valkyrie.CompareAttribute
   fullName: Valkyrie.CompareAttribute
   nameWithType: CompareAttribute
-- uid: Valkyrie.CompareAttribute.#ctor(System.Object,Valkyrie.ComparisonType,System.String)
+- uid: Valkyrie.CompareAttribute.#ctor(System.Object,Valkyrie.Enums.ComparisonType,System.String)
   name: CompareAttribute(object, ComparisonType, string)
-  href: api/Valkyrie.CompareAttribute.html#Valkyrie_CompareAttribute__ctor_System_Object_Valkyrie_ComparisonType_System_String_
-  commentId: M:Valkyrie.CompareAttribute.#ctor(System.Object,Valkyrie.ComparisonType,System.String)
+  href: api/Valkyrie.CompareAttribute.html#Valkyrie_CompareAttribute__ctor_System_Object_Valkyrie_Enums_ComparisonType_System_String_
+  commentId: M:Valkyrie.CompareAttribute.#ctor(System.Object,Valkyrie.Enums.ComparisonType,System.String)
   name.vb: New(Object, ComparisonType, String)
-  fullName: Valkyrie.CompareAttribute.CompareAttribute(object, Valkyrie.ComparisonType, string)
-  fullName.vb: Valkyrie.CompareAttribute.New(Object, Valkyrie.ComparisonType, String)
+  fullName: Valkyrie.CompareAttribute.CompareAttribute(object, Valkyrie.Enums.ComparisonType, string)
+  fullName.vb: Valkyrie.CompareAttribute.New(Object, Valkyrie.Enums.ComparisonType, String)
   nameWithType: CompareAttribute.CompareAttribute(object, ComparisonType, string)
   nameWithType.vb: CompareAttribute.New(Object, ComparisonType, String)
 - uid: Valkyrie.CompareAttribute.#ctor*
@@ -201,13 +173,13 @@ references:
   fullName: Valkyrie.CompareAttribute.FormatErrorMessage
   nameWithType: CompareAttribute.FormatErrorMessage
 - uid: Valkyrie.CompareAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
-  name: IsValid(object, ValidationContext)
+  name: IsValid(object?, ValidationContext)
   href: api/Valkyrie.CompareAttribute.html#Valkyrie_CompareAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_
   commentId: M:Valkyrie.CompareAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
   name.vb: IsValid(Object, ValidationContext)
-  fullName: Valkyrie.CompareAttribute.IsValid(object, System.ComponentModel.DataAnnotations.ValidationContext)
+  fullName: Valkyrie.CompareAttribute.IsValid(object?, System.ComponentModel.DataAnnotations.ValidationContext)
   fullName.vb: Valkyrie.CompareAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)
-  nameWithType: CompareAttribute.IsValid(object, ValidationContext)
+  nameWithType: CompareAttribute.IsValid(object?, ValidationContext)
   nameWithType.vb: CompareAttribute.IsValid(Object, ValidationContext)
 - uid: Valkyrie.CompareAttribute.IsValid*
   name: IsValid
@@ -248,13 +220,13 @@ references:
   commentId: T:Valkyrie.CompareToAttribute
   fullName: Valkyrie.CompareToAttribute
   nameWithType: CompareToAttribute
-- uid: Valkyrie.CompareToAttribute.#ctor(System.String,Valkyrie.ComparisonType,System.String)
+- uid: Valkyrie.CompareToAttribute.#ctor(System.String,Valkyrie.Enums.ComparisonType,System.String)
   name: CompareToAttribute(string, ComparisonType, string)
-  href: api/Valkyrie.CompareToAttribute.html#Valkyrie_CompareToAttribute__ctor_System_String_Valkyrie_ComparisonType_System_String_
-  commentId: M:Valkyrie.CompareToAttribute.#ctor(System.String,Valkyrie.ComparisonType,System.String)
+  href: api/Valkyrie.CompareToAttribute.html#Valkyrie_CompareToAttribute__ctor_System_String_Valkyrie_Enums_ComparisonType_System_String_
+  commentId: M:Valkyrie.CompareToAttribute.#ctor(System.String,Valkyrie.Enums.ComparisonType,System.String)
   name.vb: New(String, ComparisonType, String)
-  fullName: Valkyrie.CompareToAttribute.CompareToAttribute(string, Valkyrie.ComparisonType, string)
-  fullName.vb: Valkyrie.CompareToAttribute.New(String, Valkyrie.ComparisonType, String)
+  fullName: Valkyrie.CompareToAttribute.CompareToAttribute(string, Valkyrie.Enums.ComparisonType, string)
+  fullName.vb: Valkyrie.CompareToAttribute.New(String, Valkyrie.Enums.ComparisonType, String)
   nameWithType: CompareToAttribute.CompareToAttribute(string, ComparisonType, string)
   nameWithType.vb: CompareToAttribute.New(String, ComparisonType, String)
 - uid: Valkyrie.CompareToAttribute.#ctor*
@@ -284,13 +256,13 @@ references:
   fullName: Valkyrie.CompareToAttribute.FormatErrorMessage
   nameWithType: CompareToAttribute.FormatErrorMessage
 - uid: Valkyrie.CompareToAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
-  name: IsValid(object, ValidationContext)
+  name: IsValid(object?, ValidationContext)
   href: api/Valkyrie.CompareToAttribute.html#Valkyrie_CompareToAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_
   commentId: M:Valkyrie.CompareToAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
   name.vb: IsValid(Object, ValidationContext)
-  fullName: Valkyrie.CompareToAttribute.IsValid(object, System.ComponentModel.DataAnnotations.ValidationContext)
+  fullName: Valkyrie.CompareToAttribute.IsValid(object?, System.ComponentModel.DataAnnotations.ValidationContext)
   fullName.vb: Valkyrie.CompareToAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)
-  nameWithType: CompareToAttribute.IsValid(object, ValidationContext)
+  nameWithType: CompareToAttribute.IsValid(object?, ValidationContext)
   nameWithType.vb: CompareToAttribute.IsValid(Object, ValidationContext)
 - uid: Valkyrie.CompareToAttribute.IsValid*
   name: IsValid
@@ -325,54 +297,6 @@ references:
   isSpec: "True"
   fullName: Valkyrie.CompareToAttribute.Type
   nameWithType: CompareToAttribute.Type
-- uid: Valkyrie.ComparisonType
-  name: ComparisonType
-  href: api/Valkyrie.ComparisonType.html
-  commentId: T:Valkyrie.ComparisonType
-  fullName: Valkyrie.ComparisonType
-  nameWithType: ComparisonType
-- uid: Valkyrie.ComparisonType.Equal
-  name: Equal
-  href: api/Valkyrie.ComparisonType.html#Valkyrie_ComparisonType_Equal
-  commentId: F:Valkyrie.ComparisonType.Equal
-  fullName: Valkyrie.ComparisonType.Equal
-  nameWithType: ComparisonType.Equal
-- uid: Valkyrie.ComparisonType.GreaterThan
-  name: GreaterThan
-  href: api/Valkyrie.ComparisonType.html#Valkyrie_ComparisonType_GreaterThan
-  commentId: F:Valkyrie.ComparisonType.GreaterThan
-  fullName: Valkyrie.ComparisonType.GreaterThan
-  nameWithType: ComparisonType.GreaterThan
-- uid: Valkyrie.ComparisonType.GreaterThanOrEqual
-  name: GreaterThanOrEqual
-  href: api/Valkyrie.ComparisonType.html#Valkyrie_ComparisonType_GreaterThanOrEqual
-  commentId: F:Valkyrie.ComparisonType.GreaterThanOrEqual
-  fullName: Valkyrie.ComparisonType.GreaterThanOrEqual
-  nameWithType: ComparisonType.GreaterThanOrEqual
-- uid: Valkyrie.ComparisonType.LessThan
-  name: LessThan
-  href: api/Valkyrie.ComparisonType.html#Valkyrie_ComparisonType_LessThan
-  commentId: F:Valkyrie.ComparisonType.LessThan
-  fullName: Valkyrie.ComparisonType.LessThan
-  nameWithType: ComparisonType.LessThan
-- uid: Valkyrie.ComparisonType.LessThanOrEqual
-  name: LessThanOrEqual
-  href: api/Valkyrie.ComparisonType.html#Valkyrie_ComparisonType_LessThanOrEqual
-  commentId: F:Valkyrie.ComparisonType.LessThanOrEqual
-  fullName: Valkyrie.ComparisonType.LessThanOrEqual
-  nameWithType: ComparisonType.LessThanOrEqual
-- uid: Valkyrie.ComparisonType.NotEqual
-  name: NotEqual
-  href: api/Valkyrie.ComparisonType.html#Valkyrie_ComparisonType_NotEqual
-  commentId: F:Valkyrie.ComparisonType.NotEqual
-  fullName: Valkyrie.ComparisonType.NotEqual
-  nameWithType: ComparisonType.NotEqual
-- uid: Valkyrie.ComparisonType.Same
-  name: Same
-  href: api/Valkyrie.ComparisonType.html#Valkyrie_ComparisonType_Same
-  commentId: F:Valkyrie.ComparisonType.Same
-  fullName: Valkyrie.ComparisonType.Same
-  nameWithType: ComparisonType.Same
 - uid: Valkyrie.ContainsAttribute
   name: ContainsAttribute
   href: api/Valkyrie.ContainsAttribute.html
@@ -415,13 +339,13 @@ references:
   fullName: Valkyrie.ContainsAttribute.FormatErrorMessage
   nameWithType: ContainsAttribute.FormatErrorMessage
 - uid: Valkyrie.ContainsAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
-  name: IsValid(object, ValidationContext)
+  name: IsValid(object?, ValidationContext)
   href: api/Valkyrie.ContainsAttribute.html#Valkyrie_ContainsAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_
   commentId: M:Valkyrie.ContainsAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
   name.vb: IsValid(Object, ValidationContext)
-  fullName: Valkyrie.ContainsAttribute.IsValid(object, System.ComponentModel.DataAnnotations.ValidationContext)
+  fullName: Valkyrie.ContainsAttribute.IsValid(object?, System.ComponentModel.DataAnnotations.ValidationContext)
   fullName.vb: Valkyrie.ContainsAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)
-  nameWithType: ContainsAttribute.IsValid(object, ValidationContext)
+  nameWithType: ContainsAttribute.IsValid(object?, ValidationContext)
   nameWithType.vb: ContainsAttribute.IsValid(Object, ValidationContext)
 - uid: Valkyrie.ContainsAttribute.IsValid*
   name: IsValid
@@ -485,13 +409,13 @@ references:
   fullName: Valkyrie.DoesNotContainAttribute.FormatErrorMessage
   nameWithType: DoesNotContainAttribute.FormatErrorMessage
 - uid: Valkyrie.DoesNotContainAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
-  name: IsValid(object, ValidationContext)
+  name: IsValid(object?, ValidationContext)
   href: api/Valkyrie.DoesNotContainAttribute.html#Valkyrie_DoesNotContainAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_
   commentId: M:Valkyrie.DoesNotContainAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
   name.vb: IsValid(Object, ValidationContext)
-  fullName: Valkyrie.DoesNotContainAttribute.IsValid(object, System.ComponentModel.DataAnnotations.ValidationContext)
+  fullName: Valkyrie.DoesNotContainAttribute.IsValid(object?, System.ComponentModel.DataAnnotations.ValidationContext)
   fullName.vb: Valkyrie.DoesNotContainAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)
-  nameWithType: DoesNotContainAttribute.IsValid(object, ValidationContext)
+  nameWithType: DoesNotContainAttribute.IsValid(object?, ValidationContext)
   nameWithType.vb: DoesNotContainAttribute.IsValid(Object, ValidationContext)
 - uid: Valkyrie.DoesNotContainAttribute.IsValid*
   name: IsValid
@@ -555,13 +479,13 @@ references:
   fullName: Valkyrie.EmptyAttribute.FormatErrorMessage
   nameWithType: EmptyAttribute.FormatErrorMessage
 - uid: Valkyrie.EmptyAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
-  name: IsValid(object, ValidationContext)
+  name: IsValid(object?, ValidationContext)
   href: api/Valkyrie.EmptyAttribute.html#Valkyrie_EmptyAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_
   commentId: M:Valkyrie.EmptyAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
   name.vb: IsValid(Object, ValidationContext)
-  fullName: Valkyrie.EmptyAttribute.IsValid(object, System.ComponentModel.DataAnnotations.ValidationContext)
+  fullName: Valkyrie.EmptyAttribute.IsValid(object?, System.ComponentModel.DataAnnotations.ValidationContext)
   fullName.vb: Valkyrie.EmptyAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)
-  nameWithType: EmptyAttribute.IsValid(object, ValidationContext)
+  nameWithType: EmptyAttribute.IsValid(object?, ValidationContext)
   nameWithType.vb: EmptyAttribute.IsValid(Object, ValidationContext)
 - uid: Valkyrie.EmptyAttribute.IsValid*
   name: IsValid
@@ -570,19 +494,103 @@ references:
   isSpec: "True"
   fullName: Valkyrie.EmptyAttribute.IsValid
   nameWithType: EmptyAttribute.IsValid
+- uid: Valkyrie.Enums
+  name: Valkyrie.Enums
+  href: api/Valkyrie.Enums.html
+  commentId: N:Valkyrie.Enums
+  fullName: Valkyrie.Enums
+  nameWithType: Valkyrie.Enums
+- uid: Valkyrie.Enums.ComparisonType
+  name: ComparisonType
+  href: api/Valkyrie.Enums.ComparisonType.html
+  commentId: T:Valkyrie.Enums.ComparisonType
+  fullName: Valkyrie.Enums.ComparisonType
+  nameWithType: ComparisonType
+- uid: Valkyrie.Enums.ComparisonType.Equal
+  name: Equal
+  href: api/Valkyrie.Enums.ComparisonType.html#Valkyrie_Enums_ComparisonType_Equal
+  commentId: F:Valkyrie.Enums.ComparisonType.Equal
+  fullName: Valkyrie.Enums.ComparisonType.Equal
+  nameWithType: ComparisonType.Equal
+- uid: Valkyrie.Enums.ComparisonType.GreaterThan
+  name: GreaterThan
+  href: api/Valkyrie.Enums.ComparisonType.html#Valkyrie_Enums_ComparisonType_GreaterThan
+  commentId: F:Valkyrie.Enums.ComparisonType.GreaterThan
+  fullName: Valkyrie.Enums.ComparisonType.GreaterThan
+  nameWithType: ComparisonType.GreaterThan
+- uid: Valkyrie.Enums.ComparisonType.GreaterThanOrEqual
+  name: GreaterThanOrEqual
+  href: api/Valkyrie.Enums.ComparisonType.html#Valkyrie_Enums_ComparisonType_GreaterThanOrEqual
+  commentId: F:Valkyrie.Enums.ComparisonType.GreaterThanOrEqual
+  fullName: Valkyrie.Enums.ComparisonType.GreaterThanOrEqual
+  nameWithType: ComparisonType.GreaterThanOrEqual
+- uid: Valkyrie.Enums.ComparisonType.LessThan
+  name: LessThan
+  href: api/Valkyrie.Enums.ComparisonType.html#Valkyrie_Enums_ComparisonType_LessThan
+  commentId: F:Valkyrie.Enums.ComparisonType.LessThan
+  fullName: Valkyrie.Enums.ComparisonType.LessThan
+  nameWithType: ComparisonType.LessThan
+- uid: Valkyrie.Enums.ComparisonType.LessThanOrEqual
+  name: LessThanOrEqual
+  href: api/Valkyrie.Enums.ComparisonType.html#Valkyrie_Enums_ComparisonType_LessThanOrEqual
+  commentId: F:Valkyrie.Enums.ComparisonType.LessThanOrEqual
+  fullName: Valkyrie.Enums.ComparisonType.LessThanOrEqual
+  nameWithType: ComparisonType.LessThanOrEqual
+- uid: Valkyrie.Enums.ComparisonType.NotEqual
+  name: NotEqual
+  href: api/Valkyrie.Enums.ComparisonType.html#Valkyrie_Enums_ComparisonType_NotEqual
+  commentId: F:Valkyrie.Enums.ComparisonType.NotEqual
+  fullName: Valkyrie.Enums.ComparisonType.NotEqual
+  nameWithType: ComparisonType.NotEqual
+- uid: Valkyrie.Enums.ComparisonType.Same
+  name: Same
+  href: api/Valkyrie.Enums.ComparisonType.html#Valkyrie_Enums_ComparisonType_Same
+  commentId: F:Valkyrie.Enums.ComparisonType.Same
+  fullName: Valkyrie.Enums.ComparisonType.Same
+  nameWithType: ComparisonType.Same
+- uid: Valkyrie.Enums.IsValid
+  name: IsValid
+  href: api/Valkyrie.Enums.IsValid.html
+  commentId: T:Valkyrie.Enums.IsValid
+  fullName: Valkyrie.Enums.IsValid
+  nameWithType: IsValid
+- uid: Valkyrie.Enums.IsValid.CreditCard
+  name: CreditCard
+  href: api/Valkyrie.Enums.IsValid.html#Valkyrie_Enums_IsValid_CreditCard
+  commentId: F:Valkyrie.Enums.IsValid.CreditCard
+  fullName: Valkyrie.Enums.IsValid.CreditCard
+  nameWithType: IsValid.CreditCard
+- uid: Valkyrie.Enums.IsValid.Decimal
+  name: Decimal
+  href: api/Valkyrie.Enums.IsValid.html#Valkyrie_Enums_IsValid_Decimal
+  commentId: F:Valkyrie.Enums.IsValid.Decimal
+  fullName: Valkyrie.Enums.IsValid.Decimal
+  nameWithType: IsValid.Decimal
+- uid: Valkyrie.Enums.IsValid.Domain
+  name: Domain
+  href: api/Valkyrie.Enums.IsValid.html#Valkyrie_Enums_IsValid_Domain
+  commentId: F:Valkyrie.Enums.IsValid.Domain
+  fullName: Valkyrie.Enums.IsValid.Domain
+  nameWithType: IsValid.Domain
+- uid: Valkyrie.Enums.IsValid.Integer
+  name: Integer
+  href: api/Valkyrie.Enums.IsValid.html#Valkyrie_Enums_IsValid_Integer
+  commentId: F:Valkyrie.Enums.IsValid.Integer
+  fullName: Valkyrie.Enums.IsValid.Integer
+  nameWithType: IsValid.Integer
 - uid: Valkyrie.IsAttribute
   name: IsAttribute
   href: api/Valkyrie.IsAttribute.html
   commentId: T:Valkyrie.IsAttribute
   fullName: Valkyrie.IsAttribute
   nameWithType: IsAttribute
-- uid: Valkyrie.IsAttribute.#ctor(Valkyrie.IsValid,System.String)
+- uid: Valkyrie.IsAttribute.#ctor(Valkyrie.Enums.IsValid,System.String)
   name: IsAttribute(IsValid, string)
-  href: api/Valkyrie.IsAttribute.html#Valkyrie_IsAttribute__ctor_Valkyrie_IsValid_System_String_
-  commentId: M:Valkyrie.IsAttribute.#ctor(Valkyrie.IsValid,System.String)
+  href: api/Valkyrie.IsAttribute.html#Valkyrie_IsAttribute__ctor_Valkyrie_Enums_IsValid_System_String_
+  commentId: M:Valkyrie.IsAttribute.#ctor(Valkyrie.Enums.IsValid,System.String)
   name.vb: New(IsValid, String)
-  fullName: Valkyrie.IsAttribute.IsAttribute(Valkyrie.IsValid, string)
-  fullName.vb: Valkyrie.IsAttribute.New(Valkyrie.IsValid, String)
+  fullName: Valkyrie.IsAttribute.IsAttribute(Valkyrie.Enums.IsValid, string)
+  fullName.vb: Valkyrie.IsAttribute.New(Valkyrie.Enums.IsValid, String)
   nameWithType: IsAttribute.IsAttribute(IsValid, string)
   nameWithType.vb: IsAttribute.New(IsValid, String)
 - uid: Valkyrie.IsAttribute.#ctor*
@@ -612,13 +620,13 @@ references:
   fullName: Valkyrie.IsAttribute.FormatErrorMessage
   nameWithType: IsAttribute.FormatErrorMessage
 - uid: Valkyrie.IsAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
-  name: IsValid(object, ValidationContext)
+  name: IsValid(object?, ValidationContext)
   href: api/Valkyrie.IsAttribute.html#Valkyrie_IsAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_
   commentId: M:Valkyrie.IsAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
   name.vb: IsValid(Object, ValidationContext)
-  fullName: Valkyrie.IsAttribute.IsValid(object, System.ComponentModel.DataAnnotations.ValidationContext)
+  fullName: Valkyrie.IsAttribute.IsValid(object?, System.ComponentModel.DataAnnotations.ValidationContext)
   fullName.vb: Valkyrie.IsAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)
-  nameWithType: IsAttribute.IsValid(object, ValidationContext)
+  nameWithType: IsAttribute.IsValid(object?, ValidationContext)
   nameWithType.vb: IsAttribute.IsValid(Object, ValidationContext)
 - uid: Valkyrie.IsAttribute.IsValid*
   name: IsValid
@@ -640,36 +648,6 @@ references:
   isSpec: "True"
   fullName: Valkyrie.IsAttribute.Type
   nameWithType: IsAttribute.Type
-- uid: Valkyrie.IsValid
-  name: IsValid
-  href: api/Valkyrie.IsValid.html
-  commentId: T:Valkyrie.IsValid
-  fullName: Valkyrie.IsValid
-  nameWithType: IsValid
-- uid: Valkyrie.IsValid.CreditCard
-  name: CreditCard
-  href: api/Valkyrie.IsValid.html#Valkyrie_IsValid_CreditCard
-  commentId: F:Valkyrie.IsValid.CreditCard
-  fullName: Valkyrie.IsValid.CreditCard
-  nameWithType: IsValid.CreditCard
-- uid: Valkyrie.IsValid.Decimal
-  name: Decimal
-  href: api/Valkyrie.IsValid.html#Valkyrie_IsValid_Decimal
-  commentId: F:Valkyrie.IsValid.Decimal
-  fullName: Valkyrie.IsValid.Decimal
-  nameWithType: IsValid.Decimal
-- uid: Valkyrie.IsValid.Domain
-  name: Domain
-  href: api/Valkyrie.IsValid.html#Valkyrie_IsValid_Domain
-  commentId: F:Valkyrie.IsValid.Domain
-  fullName: Valkyrie.IsValid.Domain
-  nameWithType: IsValid.Domain
-- uid: Valkyrie.IsValid.Integer
-  name: Integer
-  href: api/Valkyrie.IsValid.html#Valkyrie_IsValid_Integer
-  commentId: F:Valkyrie.IsValid.Integer
-  fullName: Valkyrie.IsValid.Integer
-  nameWithType: IsValid.Integer
 - uid: Valkyrie.MaxLengthAttribute
   name: MaxLengthAttribute
   href: api/Valkyrie.MaxLengthAttribute.html
@@ -712,13 +690,13 @@ references:
   fullName: Valkyrie.MaxLengthAttribute.FormatErrorMessage
   nameWithType: MaxLengthAttribute.FormatErrorMessage
 - uid: Valkyrie.MaxLengthAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
-  name: IsValid(object, ValidationContext)
+  name: IsValid(object?, ValidationContext)
   href: api/Valkyrie.MaxLengthAttribute.html#Valkyrie_MaxLengthAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_
   commentId: M:Valkyrie.MaxLengthAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
   name.vb: IsValid(Object, ValidationContext)
-  fullName: Valkyrie.MaxLengthAttribute.IsValid(object, System.ComponentModel.DataAnnotations.ValidationContext)
+  fullName: Valkyrie.MaxLengthAttribute.IsValid(object?, System.ComponentModel.DataAnnotations.ValidationContext)
   fullName.vb: Valkyrie.MaxLengthAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)
-  nameWithType: MaxLengthAttribute.IsValid(object, ValidationContext)
+  nameWithType: MaxLengthAttribute.IsValid(object?, ValidationContext)
   nameWithType.vb: MaxLengthAttribute.IsValid(Object, ValidationContext)
 - uid: Valkyrie.MaxLengthAttribute.IsValid*
   name: IsValid
@@ -782,13 +760,13 @@ references:
   fullName: Valkyrie.MinLengthAttribute.FormatErrorMessage
   nameWithType: MinLengthAttribute.FormatErrorMessage
 - uid: Valkyrie.MinLengthAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
-  name: IsValid(object, ValidationContext)
+  name: IsValid(object?, ValidationContext)
   href: api/Valkyrie.MinLengthAttribute.html#Valkyrie_MinLengthAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_
   commentId: M:Valkyrie.MinLengthAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
   name.vb: IsValid(Object, ValidationContext)
-  fullName: Valkyrie.MinLengthAttribute.IsValid(object, System.ComponentModel.DataAnnotations.ValidationContext)
+  fullName: Valkyrie.MinLengthAttribute.IsValid(object?, System.ComponentModel.DataAnnotations.ValidationContext)
   fullName.vb: Valkyrie.MinLengthAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)
-  nameWithType: MinLengthAttribute.IsValid(object, ValidationContext)
+  nameWithType: MinLengthAttribute.IsValid(object?, ValidationContext)
   nameWithType.vb: MinLengthAttribute.IsValid(Object, ValidationContext)
 - uid: Valkyrie.MinLengthAttribute.IsValid*
   name: IsValid
@@ -852,13 +830,13 @@ references:
   fullName: Valkyrie.NotEmptyAttribute.FormatErrorMessage
   nameWithType: NotEmptyAttribute.FormatErrorMessage
 - uid: Valkyrie.NotEmptyAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
-  name: IsValid(object, ValidationContext)
+  name: IsValid(object?, ValidationContext)
   href: api/Valkyrie.NotEmptyAttribute.html#Valkyrie_NotEmptyAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_
   commentId: M:Valkyrie.NotEmptyAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
   name.vb: IsValid(Object, ValidationContext)
-  fullName: Valkyrie.NotEmptyAttribute.IsValid(object, System.ComponentModel.DataAnnotations.ValidationContext)
+  fullName: Valkyrie.NotEmptyAttribute.IsValid(object?, System.ComponentModel.DataAnnotations.ValidationContext)
   fullName.vb: Valkyrie.NotEmptyAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)
-  nameWithType: NotEmptyAttribute.IsValid(object, ValidationContext)
+  nameWithType: NotEmptyAttribute.IsValid(object?, ValidationContext)
   nameWithType.vb: NotEmptyAttribute.IsValid(Object, ValidationContext)
 - uid: Valkyrie.NotEmptyAttribute.IsValid*
   name: IsValid
@@ -909,13 +887,13 @@ references:
   fullName: Valkyrie.NotInRangeAttribute.FormatErrorMessage
   nameWithType: NotInRangeAttribute.FormatErrorMessage
 - uid: Valkyrie.NotInRangeAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
-  name: IsValid(object, ValidationContext)
+  name: IsValid(object?, ValidationContext)
   href: api/Valkyrie.NotInRangeAttribute.html#Valkyrie_NotInRangeAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_
   commentId: M:Valkyrie.NotInRangeAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
   name.vb: IsValid(Object, ValidationContext)
-  fullName: Valkyrie.NotInRangeAttribute.IsValid(object, System.ComponentModel.DataAnnotations.ValidationContext)
+  fullName: Valkyrie.NotInRangeAttribute.IsValid(object?, System.ComponentModel.DataAnnotations.ValidationContext)
   fullName.vb: Valkyrie.NotInRangeAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)
-  nameWithType: NotInRangeAttribute.IsValid(object, ValidationContext)
+  nameWithType: NotInRangeAttribute.IsValid(object?, ValidationContext)
   nameWithType.vb: NotInRangeAttribute.IsValid(Object, ValidationContext)
 - uid: Valkyrie.NotInRangeAttribute.IsValid*
   name: IsValid
@@ -950,3 +928,40 @@ references:
   isSpec: "True"
   fullName: Valkyrie.NotInRangeAttribute.Min
   nameWithType: NotInRangeAttribute.Min
+- uid: Valkyrie.Registration
+  name: Valkyrie.Registration
+  href: api/Valkyrie.Registration.html
+  commentId: N:Valkyrie.Registration
+  fullName: Valkyrie.Registration
+  nameWithType: Valkyrie.Registration
+- uid: Valkyrie.Registration.Registration
+  name: Registration
+  href: api/Valkyrie.Registration.Registration.html
+  commentId: T:Valkyrie.Registration.Registration
+  fullName: Valkyrie.Registration.Registration
+  nameWithType: Registration
+- uid: Valkyrie.Registration.Registration.RegisterValkyrie(Canister.Interfaces.ICanisterConfiguration)
+  name: RegisterValkyrie(ICanisterConfiguration?)
+  href: api/Valkyrie.Registration.Registration.html#Valkyrie_Registration_Registration_RegisterValkyrie_Canister_Interfaces_ICanisterConfiguration_
+  commentId: M:Valkyrie.Registration.Registration.RegisterValkyrie(Canister.Interfaces.ICanisterConfiguration)
+  name.vb: RegisterValkyrie(ICanisterConfiguration)
+  fullName: Valkyrie.Registration.Registration.RegisterValkyrie(Canister.Interfaces.ICanisterConfiguration?)
+  fullName.vb: Valkyrie.Registration.Registration.RegisterValkyrie(Canister.Interfaces.ICanisterConfiguration)
+  nameWithType: Registration.RegisterValkyrie(ICanisterConfiguration?)
+  nameWithType.vb: Registration.RegisterValkyrie(ICanisterConfiguration)
+- uid: Valkyrie.Registration.Registration.RegisterValkyrie(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name: RegisterValkyrie(IServiceCollection?)
+  href: api/Valkyrie.Registration.Registration.html#Valkyrie_Registration_Registration_RegisterValkyrie_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  commentId: M:Valkyrie.Registration.Registration.RegisterValkyrie(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name.vb: RegisterValkyrie(IServiceCollection)
+  fullName: Valkyrie.Registration.Registration.RegisterValkyrie(Microsoft.Extensions.DependencyInjection.IServiceCollection?)
+  fullName.vb: Valkyrie.Registration.Registration.RegisterValkyrie(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  nameWithType: Registration.RegisterValkyrie(IServiceCollection?)
+  nameWithType.vb: Registration.RegisterValkyrie(IServiceCollection)
+- uid: Valkyrie.Registration.Registration.RegisterValkyrie*
+  name: RegisterValkyrie
+  href: api/Valkyrie.Registration.Registration.html#Valkyrie_Registration_Registration_RegisterValkyrie_
+  commentId: Overload:Valkyrie.Registration.Registration.RegisterValkyrie
+  isSpec: "True"
+  fullName: Valkyrie.Registration.Registration.RegisterValkyrie
+  nameWithType: Registration.RegisterValkyrie

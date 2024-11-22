@@ -12,26 +12,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.Registration.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Microsoft.Extensions.DependencyInjection.Registration.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Microsoft.Extensions.DependencyInjection.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Valkyrie.BetweenAttribute.yml",
       "output": {
         ".html": {
@@ -72,16 +52,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Valkyrie.ComparisonType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Valkyrie.ComparisonType.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Valkyrie.ContainsAttribute.yml",
       "output": {
         ".html": {
@@ -112,20 +82,40 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Valkyrie.IsAttribute.yml",
+      "source_relative_path": "api/Valkyrie.Enums.ComparisonType.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Valkyrie.IsAttribute.html"
+          "relative_path": "api/Valkyrie.Enums.ComparisonType.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Valkyrie.IsValid.yml",
+      "source_relative_path": "api/Valkyrie.Enums.IsValid.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Valkyrie.IsValid.html"
+          "relative_path": "api/Valkyrie.Enums.IsValid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Valkyrie.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Valkyrie.Enums.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Valkyrie.IsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Valkyrie.IsAttribute.html"
         }
       },
       "version": ""
@@ -166,6 +156,26 @@
       "output": {
         ".html": {
           "relative_path": "api/Valkyrie.NotInRangeAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Valkyrie.Registration.Registration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Valkyrie.Registration.Registration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Valkyrie.Registration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Valkyrie.Registration.html"
         }
       },
       "version": ""

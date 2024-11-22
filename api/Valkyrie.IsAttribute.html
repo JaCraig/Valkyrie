@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/JaCraig/Valkyrie/new/master/apiSpec/new?filename=Valkyrie_IsAttribute.md&amp;value=---%0Auid%3A%20Valkyrie.IsAttribute%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Valkyrie_IsAttribute" data-uid="Valkyrie.IsAttribute" class="text-break">
-Class IsAttribute  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Valkyrie/blob/master/src/Valkyrie/Is.cs/#L28"><i class="bi bi-code-slash"></i></a>
+Class IsAttribute  
   </h1>
 
   <div class="facts text-secondary">
@@ -276,6 +276,9 @@ public sealed class IsAttribute : ValidationAttribute</code></pre>
 
 
 
+  <h2 id="Valkyrie_IsAttribute_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>Constructor</p>
+</div>
 
 
   <h2 class="section" id="constructors">Constructors
@@ -284,25 +287,25 @@ public sealed class IsAttribute : ValidationAttribute</code></pre>
 
   <a id="Valkyrie_IsAttribute__ctor_" data-uid="Valkyrie.IsAttribute.#ctor*"></a>
 
-  <h3 id="Valkyrie_IsAttribute__ctor_Valkyrie_IsValid_System_String_" data-uid="Valkyrie.IsAttribute.#ctor(Valkyrie.IsValid,System.String)">
+  <h3 id="Valkyrie_IsAttribute__ctor_Valkyrie_Enums_IsValid_System_String_" data-uid="Valkyrie.IsAttribute.#ctor(Valkyrie.Enums.IsValid,System.String)">
   IsAttribute(IsValid, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Valkyrie/blob/master/src/Valkyrie/Is.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Valkyrie/blob/master/Valkyrie/Is.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Constructor</p>
+  <div class="markdown level1 summary"><p>Is attribute</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IsAttribute(IsValid Type, string ErrorMessage = &quot;&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">public IsAttribute(IsValid type, string errorMessage = &quot;&quot;)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>Type</code> <a class="xref" href="Valkyrie.IsValid.html">IsValid</a></dt>
+    <dt><code>type</code> <a class="xref" href="Valkyrie.Enums.IsValid.html">IsValid</a></dt>
     <dd><p>Validation type enum</p>
 </dd>
-    <dt><code>ErrorMessage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>errorMessage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>Error message</p>
 </dd>
   </dl>
@@ -314,6 +317,9 @@ public sealed class IsAttribute : ValidationAttribute</code></pre>
 
 
 
+  <h4 class="section" id="Valkyrie_IsAttribute__ctor_Valkyrie_Enums_IsValid_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Constructor</p>
+</div>
 
 
 
@@ -326,10 +332,10 @@ public sealed class IsAttribute : ValidationAttribute</code></pre>
 
   <h3 id="Valkyrie_IsAttribute_Type" data-uid="Valkyrie.IsAttribute.Type">
   Type
-  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Valkyrie/blob/master/src/Valkyrie/Is.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Valkyrie/blob/master/Valkyrie/Is.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Type of validation to do</p>
+  <div class="markdown level1 summary"><p>Gets the type of validation to do.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -343,7 +349,7 @@ public sealed class IsAttribute : ValidationAttribute</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Valkyrie.IsValid.html">IsValid</a></dt>
+    <dt><a class="xref" href="Valkyrie.Enums.IsValid.html">IsValid</a></dt>
     <dd></dd>
   </dl>
 
@@ -362,10 +368,10 @@ public sealed class IsAttribute : ValidationAttribute</code></pre>
 
   <h3 id="Valkyrie_IsAttribute_FormatErrorMessage_System_String_" data-uid="Valkyrie.IsAttribute.FormatErrorMessage(System.String)">
   FormatErrorMessage(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Valkyrie/blob/master/src/Valkyrie/Is.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Valkyrie/blob/master/Valkyrie/Is.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Formats the error message</p>
+  <div class="markdown level1 summary"><p>Formats the error message.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -400,16 +406,16 @@ public sealed class IsAttribute : ValidationAttribute</code></pre>
   <a id="Valkyrie_IsAttribute_IsValid_" data-uid="Valkyrie.IsAttribute.IsValid*"></a>
 
   <h3 id="Valkyrie_IsAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_" data-uid="Valkyrie.IsAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)">
-  IsValid(object, ValidationContext)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Valkyrie/blob/master/src/Valkyrie/Is.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  IsValid(object?, ValidationContext)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JaCraig/Valkyrie/blob/master/Valkyrie/Is.cs/#L93"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Determines if the property is valid</p>
+  <div class="markdown level1 summary"><p>Determines if the property is valid.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override ValidationResult IsValid(object value, ValidationContext validationContext)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -443,7 +449,6 @@ public sealed class IsAttribute : ValidationAttribute</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/JaCraig/Valkyrie/blob/master/src/Valkyrie/Is.cs/#L28" class="edit-link">Edit this page</a>
         </div>
 
 
