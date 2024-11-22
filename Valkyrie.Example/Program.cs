@@ -1,4 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Valkyrie.Enums;
+using Valkyrie.ExtensionMethods;
 
 namespace Valkyrie.Example
 {

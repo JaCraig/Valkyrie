@@ -12,9 +12,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CB64B9BE-E0FB-4497-A86E-C79023F5A0EC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Valkyrie", "src\Valkyrie\Valkyrie.csproj", "{3B9017AC-55D9-45CC-9832-31B7F5D7CCBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Valkyrie", "Valkyrie\Valkyrie.csproj", "{3B9017AC-55D9-45CC-9832-31B7F5D7CCBA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Valkyrie.Tests", "test\Valkyrie.Tests\Valkyrie.Tests.csproj", "{00E84A8A-CA38-434F-8303-F5225E1AE53D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Valkyrie.Tests", "Valkyrie.Tests\Valkyrie.Tests.csproj", "{00E84A8A-CA38-434F-8303-F5225E1AE53D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Valkyrie.Example", "Valkyrie.Example\Valkyrie.Example.csproj", "{C3055A7F-958E-4600-86AC-DAB29B901876}"
 EndProject

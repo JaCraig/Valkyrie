@@ -3,13 +3,13 @@
     {
       "src": [
         {
-          "files": ["src/Valkyrie/Valkyrie.csproj"],
+          "files": ["Valkyrie/Valkyrie.csproj"],
           "src": "../"
         }
       ],
       "dest": "api",
       "properties": {
-        "TargetFramework": "net6.0"
+        "TargetFramework": "net8.0"
       },
       "includePrivateMembers": false,
       "disableGitFeatures": false,
