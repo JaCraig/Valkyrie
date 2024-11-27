@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="5.0.0"></a>
+## [5.0.0](https://www.github.com/JaCraig/Valkyrie/releases/tag/v5.0.0) (2024-11-22)
+
+### Features
+
+* Updating all packages for .Net 8/9 ([d4a0024](https://www.github.com/JaCraig/Valkyrie/commit/d4a0024c4fd266a90f6199a303af2c822b16406a))
+
+### Breaking Changes
+
+* Updating all packages for .Net 8/9 ([d4a0024](https://www.github.com/JaCraig/Valkyrie/commit/d4a0024c4fd266a90f6199a303af2c822b16406a))
+
+### Other
+
+* Merge pull request #142 from JaCraig/dependabot/nuget/test/Valkyrie.Tests/dependencies-617062173c ([32b3865](https://www.github.com/JaCraig/Valkyrie/commit/32b3865165027fb117206c29903ea1aa50a9b0f0))
+* bump Microsoft.NET.Test.Sdk ([0c789cb](https://www.github.com/JaCraig/Valkyrie/commit/0c789cb296478a39ac5cded802604bd723da8eaa))
+
 <a name="4.0.102"></a>
 ## [4.0.102](https://www.github.com/JaCraig/Valkyrie/releases/tag/v4.0.102) (2024-11-12)
 
