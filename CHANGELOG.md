@@ -2,6 +2,42 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="5.0.1"></a>
+## [5.0.1](https://www.github.com/JaCraig/Valkyrie/releases/tag/v5.0.1) (2025-06-27)
+
+### Bug Fixes
+
+* **dependabot:** correct directory paths and formatting ([1639909](https://www.github.com/JaCraig/Valkyrie/commit/16399099aaac0d61c9896af81d109086ad49a62d))
+
+### Other
+
+* Merge pull request #143 from JaCraig/dependabot/nuget/Valkyrie.Example/dependencies-2948b9f91f ([4ffe2e7](https://www.github.com/JaCraig/Valkyrie/commit/4ffe2e76a4b360a6e8ce69f4af38ec55fa8122cb))
+* Merge pull request #144 from JaCraig/dependabot/nuget/Valkyrie.Tests/dependencies-faba8347c0 ([4733a57](https://www.github.com/JaCraig/Valkyrie/commit/4733a57fc4072e43e6814dcf1e29be45a27bb612))
+* Merge pull request #145 from JaCraig/dependabot/nuget/Valkyrie.Example/dependencies-b580c13aa2 ([9be85dc](https://www.github.com/JaCraig/Valkyrie/commit/9be85dc3f7b495c4f4c35fe52fa74e8682a3e8b6))
+* Merge pull request #146 from JaCraig/dependabot/nuget/Valkyrie.Tests/dependencies-637ad84d5b ([bf0a1d0](https://www.github.com/JaCraig/Valkyrie/commit/bf0a1d02bd547d4ce8505ef0d1ae3781b36c291b))
+* Merge pull request #147 from JaCraig/dependabot/nuget/Valkyrie.Tests/dependencies-37a7915f86 ([58b18ad](https://www.github.com/JaCraig/Valkyrie/commit/58b18ad736cd416224d66d9088f9ce3f9210554f))
+* Merge pull request #148 from JaCraig/dependabot/nuget/Valkyrie.Tests/dependencies-dac939b906 ([3f038e6](https://www.github.com/JaCraig/Valkyrie/commit/3f038e645d3a621095955bcd5b0bbd592eb2a4e1))
+* Merge pull request #149 from JaCraig/dependabot/nuget/Valkyrie.Tests/dependencies-955fcb2e58 ([657c26d](https://www.github.com/JaCraig/Valkyrie/commit/657c26d25e4e1ed59fab9efd6cfb744a3c0f8358))
+* Merge pull request #150 from JaCraig/dependabot/nuget/Valkyrie.Tests/dependencies-293c44675e ([852f147](https://www.github.com/JaCraig/Valkyrie/commit/852f147fe1c5de765d3d4ca69fc0c0dd3826e1eb))
+* Merge pull request #151 from JaCraig/dependabot/nuget/Valkyrie.Example/dependencies-0d060393c4 ([0fbe303](https://www.github.com/JaCraig/Valkyrie/commit/0fbe3033c030cd99575444cb949dbf1f7e4c67a8))
+* Merge pull request #152 from JaCraig/dependabot/nuget/Valkyrie.Tests/dependencies-836e21bf11 ([4a35561](https://www.github.com/JaCraig/Valkyrie/commit/4a355613daf6f6c392f82aaf13a123f41c0848c3))
+* Merge pull request #153 from JaCraig/dependabot/nuget/Valkyrie.Example/dependencies-836e21bf11 ([3dc6c7a](https://www.github.com/JaCraig/Valkyrie/commit/3dc6c7a1a6d43df84d63e020525e4b4342cfa83f))
+* Merge pull request #154 from JaCraig/dependabot/nuget/Valkyrie.Tests/dependencies-8512ba2625 ([9decdd9](https://www.github.com/JaCraig/Valkyrie/commit/9decdd9b50905a32a6101940fa4606d8f72d1efe))
+* bump BigBook in /Valkyrie.Example in the dependencies group ([a356182](https://www.github.com/JaCraig/Valkyrie/commit/a356182854f2ad30724173e479d30c70cb1ae69d))
+* bump BigBook in /Valkyrie.Example in the dependencies group ([07b4ae5](https://www.github.com/JaCraig/Valkyrie/commit/07b4ae5b1e289e0c6d31df1a792968cf148603c2))
+* bump BigBook in /Valkyrie.Example in the dependencies group ([84ef354](https://www.github.com/JaCraig/Valkyrie/commit/84ef354e061cdff8fd7bc385c0a144e3a230cd16))
+* bump BigBook in /Valkyrie.Tests in the dependencies group ([277b327](https://www.github.com/JaCraig/Valkyrie/commit/277b32727b3ee5d9f71ffc1bcbc0fa08f080f48c))
+* bump the dependencies group in /Valkyrie.Tests with 2 updates ([73b9f75](https://www.github.com/JaCraig/Valkyrie/commit/73b9f75ad5e79c498ce331f28e573a12b599c7cd))
+* bump the dependencies group in /Valkyrie.Tests with 2 updates ([667c3df](https://www.github.com/JaCraig/Valkyrie/commit/667c3dfef33a3ab5530f7c5461569310d26d8cea))
+* bump the dependencies group in /Valkyrie.Tests with 2 updates ([2958fec](https://www.github.com/JaCraig/Valkyrie/commit/2958fecd42926eae94c8ad13dbd061dfb37db061))
+* bump versionize in /Valkyrie.Example in the dependencies group ([88960ab](https://www.github.com/JaCraig/Valkyrie/commit/88960ab613602c93493ffae7dea17842d028cb64))
+* bump versionize in /Valkyrie.Tests in the dependencies group ([182e167](https://www.github.com/JaCraig/Valkyrie/commit/182e167accbb0a9dc0116f797c4cb6062c06c46d))
+* bump xunit in /Valkyrie.Tests in the dependencies group ([a8692c9](https://www.github.com/JaCraig/Valkyrie/commit/a8692c97ad6643f44d5798eb655966d1d6cf7c86))
+* bump xunit.runner.visualstudio ([04248c2](https://www.github.com/JaCraig/Valkyrie/commit/04248c2ebeab36dc538a2184cbbcaa058cd22257))
+* bump xunit.runner.visualstudio ([d7c45ac](https://www.github.com/JaCraig/Valkyrie/commit/d7c45acbb24c0327e7fc32614bce9d36db738ac6))
+* Merge branch 'master' of https://github.com/JaCraig/Valkyrie ([91811ad](https://www.github.com/JaCraig/Valkyrie/commit/91811ad8ae676995054a760b3c9841c6269aa90f))
+* update husky and versionize tool versions to 0.7.1 and 2.3.0 respectively ([20513a4](https://www.github.com/JaCraig/Valkyrie/commit/20513a44f9f0501851f35757ea3acfe38c41c1ea))
+
 <a name="5.0.0"></a>
 ## [5.0.0](https://www.github.com/JaCraig/Valkyrie/releases/tag/v5.0.0) (2024-11-22)
 
