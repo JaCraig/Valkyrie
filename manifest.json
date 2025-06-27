@@ -18,7 +18,11 @@
           "relative_path": "api/Valkyrie.BetweenAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Valkyrie.BetweenAttribute",
+      "Summary": "<p sourcefile=\"api/Valkyrie.BetweenAttribute.yml\" sourcestartlinenumber=\"1\">Between attribute</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -28,7 +32,11 @@
           "relative_path": "api/Valkyrie.CascadeAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Valkyrie.CascadeAttribute",
+      "Summary": "<p sourcefile=\"api/Valkyrie.CascadeAttribute.yml\" sourcestartlinenumber=\"1\">Cascade attribute</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -38,7 +46,11 @@
           "relative_path": "api/Valkyrie.CompareAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Valkyrie.CompareAttribute",
+      "Summary": "<p sourcefile=\"api/Valkyrie.CompareAttribute.yml\" sourcestartlinenumber=\"1\">Compare attribute</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -48,7 +60,11 @@
           "relative_path": "api/Valkyrie.CompareToAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Valkyrie.CompareToAttribute",
+      "Summary": "<p sourcefile=\"api/Valkyrie.CompareToAttribute.yml\" sourcestartlinenumber=\"1\">CompareTo attribute</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -58,7 +74,11 @@
           "relative_path": "api/Valkyrie.ContainsAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Valkyrie.ContainsAttribute",
+      "Summary": "<p sourcefile=\"api/Valkyrie.ContainsAttribute.yml\" sourcestartlinenumber=\"1\">Contains attribute</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -68,7 +88,11 @@
           "relative_path": "api/Valkyrie.DoesNotContainAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Valkyrie.DoesNotContainAttribute",
+      "Summary": "<p sourcefile=\"api/Valkyrie.DoesNotContainAttribute.yml\" sourcestartlinenumber=\"1\">Does not contain attribute</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -78,7 +102,11 @@
           "relative_path": "api/Valkyrie.EmptyAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Valkyrie.EmptyAttribute",
+      "Summary": "<p sourcefile=\"api/Valkyrie.EmptyAttribute.yml\" sourcestartlinenumber=\"1\">Empty attribute</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -88,7 +116,11 @@
           "relative_path": "api/Valkyrie.Enums.ComparisonType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Valkyrie.Enums.ComparisonType",
+      "Summary": "<p sourcefile=\"api/Valkyrie.Enums.ComparisonType.yml\" sourcestartlinenumber=\"1\">Comparison types</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -98,7 +130,11 @@
           "relative_path": "api/Valkyrie.Enums.IsValid.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Valkyrie.Enums.IsValid",
+      "Summary": "<p sourcefile=\"api/Valkyrie.Enums.IsValid.yml\" sourcestartlinenumber=\"1\">IsValid types</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -108,7 +144,11 @@
           "relative_path": "api/Valkyrie.Enums.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Valkyrie.Enums",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -118,7 +158,11 @@
           "relative_path": "api/Valkyrie.IsAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Valkyrie.IsAttribute",
+      "Summary": "<p sourcefile=\"api/Valkyrie.IsAttribute.yml\" sourcestartlinenumber=\"1\">Is attribute</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -128,7 +172,11 @@
           "relative_path": "api/Valkyrie.MaxLengthAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Valkyrie.MaxLengthAttribute",
+      "Summary": "<p sourcefile=\"api/Valkyrie.MaxLengthAttribute.yml\" sourcestartlinenumber=\"1\">Max length attribute</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -138,7 +186,11 @@
           "relative_path": "api/Valkyrie.MinLengthAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Valkyrie.MinLengthAttribute",
+      "Summary": "<p sourcefile=\"api/Valkyrie.MinLengthAttribute.yml\" sourcestartlinenumber=\"1\">Min length attribute</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -148,7 +200,11 @@
           "relative_path": "api/Valkyrie.NotEmptyAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Valkyrie.NotEmptyAttribute",
+      "Summary": "<p sourcefile=\"api/Valkyrie.NotEmptyAttribute.yml\" sourcestartlinenumber=\"1\">Not empty attribute</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -158,7 +214,11 @@
           "relative_path": "api/Valkyrie.NotInRangeAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Valkyrie.NotInRangeAttribute",
+      "Summary": "<p sourcefile=\"api/Valkyrie.NotInRangeAttribute.yml\" sourcestartlinenumber=\"1\">Not in range attribute</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -168,7 +228,11 @@
           "relative_path": "api/Valkyrie.Registration.Registration.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Valkyrie.Registration.Registration",
+      "Summary": "<p sourcefile=\"api/Valkyrie.Registration.Registration.yml\" sourcestartlinenumber=\"1\">Registration extension methods</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -178,7 +242,11 @@
           "relative_path": "api/Valkyrie.Registration.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Valkyrie.Registration",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -188,7 +256,11 @@
           "relative_path": "api/Valkyrie.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Valkyrie",
+      "Summary": null
     },
     {
       "type": "Conceptual",
