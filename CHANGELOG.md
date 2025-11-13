@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="5.0.6"></a>
+## [5.0.6](https://www.github.com/JaCraig/Valkyrie/releases/tag/v5.0.6) (2025-11-13)
+
+### Bug Fixes
+
+* Bump the dependencies group with 3 updates ([be81203](https://www.github.com/JaCraig/Valkyrie/commit/be8120332f6502f30ccac14e3735186af80e8fe0))
+
+### Other
+
+* Merge pull request #170 from JaCraig/dependabot/nuget/Valkyrie/dependencies-2f1b34d357 ([9f5bfba](https://www.github.com/JaCraig/Valkyrie/commit/9f5bfbade9451a939588a374a03bc045d724c89b))
+* Merge pull request #172 from JaCraig/dependabot/nuget/Valkyrie.Tests/dependencies-f8dc83ce5f ([77fea82](https://www.github.com/JaCraig/Valkyrie/commit/77fea82cf8dd42e64e0b7f0a8b8609b116f0dbe1))
+* Merge pull request #173 from JaCraig/dependabot/nuget/Valkyrie/dependencies-abe5081d6b ([ef02653](https://www.github.com/JaCraig/Valkyrie/commit/ef026538542d5880913eb048c55a9f80d4162756))
+* Merge pull request #174 from JaCraig/dependabot/nuget/Valkyrie.Tests/dependencies-f078703165 ([9bb6d81](https://www.github.com/JaCraig/Valkyrie/commit/9bb6d810a1adfe6a16d5e5d4b84866ee7b183b91))
+* Merge pull request #175 from JaCraig/dependabot/nuget/dot-config/dependencies-42c04fdd61 ([1650adb](https://www.github.com/JaCraig/Valkyrie/commit/1650adb3b4501e115b7bb07bb927745b0c7a4e50))
+* Bump Microsoft.CodeAnalysis.NetAnalyzers from 9.0.0 to 10.0.100 ([568a1fe](https://www.github.com/JaCraig/Valkyrie/commit/568a1fe86a3c5603478621e5c5f9520bf87f8888))
+* Bump Microsoft.NET.Test.Sdk from 18.0.0 to 18.0.1 ([bbaf316](https://www.github.com/JaCraig/Valkyrie/commit/bbaf3164a2e592f952719a5f03139ac67b08fc58))
+* Bump the dependencies group with 1 update ([8069b2e](https://www.github.com/JaCraig/Valkyrie/commit/8069b2ea289e6a9ef3c4176c4ad07a8f827b12b7))
+* Bump the dependencies group with 2 updates ([9adcdde](https://www.github.com/JaCraig/Valkyrie/commit/9adcdde2164e4750d2c0832917025c7b94deb811))
+
 <a name="5.0.5"></a>
 ## [5.0.5](https://www.github.com/JaCraig/Valkyrie/releases/tag/v5.0.5) (2025-10-16)
 
