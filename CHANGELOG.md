@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="5.0.7"></a>
+## [5.0.7](https://www.github.com/JaCraig/Valkyrie/releases/tag/v5.0.7) (2025-12-10)
+
+### Bug Fixes
+
+* Bump the dependencies group with 1 update ([e0e744b](https://www.github.com/JaCraig/Valkyrie/commit/e0e744be3725eb34f47213ab75f97240cb69fc03))
+
+### Other
+
+* Merge pull request #177 from JaCraig/dependabot/nuget/Valkyrie/dependencies-9695a9bd67 ([8f50f94](https://www.github.com/JaCraig/Valkyrie/commit/8f50f94dcc83b3db9edac42fedb6153f7b29392a))
+* Merge pull request #178 from JaCraig/dependabot/nuget/Valkyrie/dependencies-b30b2030f9 ([6944860](https://www.github.com/JaCraig/Valkyrie/commit/6944860bd3b53ae38e3af89f66ecc512ea014627))
+* Merge pull request #179 from JaCraig/dependabot/nuget/Valkyrie/dependencies-afc5b55bd6 ([1a6df9e](https://www.github.com/JaCraig/Valkyrie/commit/1a6df9e07c7ecf78bae4a1936baaadbfa1ef9281))
+* Bump the dependencies group with 1 update ([a02c7c1](https://www.github.com/JaCraig/Valkyrie/commit/a02c7c114276b57688cc64f9174aef733e06f6c5))
+* Bump the dependencies group with 1 update ([5a13ca6](https://www.github.com/JaCraig/Valkyrie/commit/5a13ca6a401078f8d9cd14d41aaf4021335286a3))
+* Specify languages for CodeQL analysis ([94fa913](https://www.github.com/JaCraig/Valkyrie/commit/94fa913be6a225f785f99f717cbd627e8945baa9))
+
 <a name="5.0.6"></a>
 ## [5.0.6](https://www.github.com/JaCraig/Valkyrie/releases/tag/v5.0.6) (2025-11-13)
 
