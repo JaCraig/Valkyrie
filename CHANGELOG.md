@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="5.0.11"></a>
+## [5.0.11](https://www.github.com/JaCraig/Valkyrie/releases/tag/v5.0.11) (2026-02-03)
+
+### Bug Fixes
+
+* Bump the dependencies group with 2 updates ([ce186d8](https://www.github.com/JaCraig/Valkyrie/commit/ce186d8ff9f4d8c21a97370be72d2e2933c3c059))
+
+### Other
+
+* Merge pull request #185 from JaCraig/dependabot/nuget/dot-config/dependencies-28042fb4d8 ([a5870af](https://www.github.com/JaCraig/Valkyrie/commit/a5870af3782d4c74836dafd98e574aef38c1a421))
+* Merge pull request #186 from JaCraig/dependabot/nuget/dot-config/dependencies-28042fb4d8 ([a146090](https://www.github.com/JaCraig/Valkyrie/commit/a1460909e36be80aef82173920d7ba6a7e74b556))
+* Bump the dependencies group with 2 updates ([fdd657f](https://www.github.com/JaCraig/Valkyrie/commit/fdd657fa981a878fdde94e9e3e98b9bcf5985861))
+
 <a name="5.0.10"></a>
 ## [5.0.10](https://www.github.com/JaCraig/Valkyrie/releases/tag/v5.0.10) (2026-01-20)
 
