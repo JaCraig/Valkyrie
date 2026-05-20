@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="5.0.29"></a>
+## [5.0.29](https://www.github.com/JaCraig/Valkyrie/releases/tag/v5.0.29) (2026-05-20)
+
+### Bug Fixes
+
+* Bump the dependencies group with 1 update ([114269a](https://www.github.com/JaCraig/Valkyrie/commit/114269a6278fab1cc478fce2e8cfb2f9feec23b8))
+
+### Other
+
+* Merge pull request #220 from JaCraig/dependabot/nuget/Valkyrie/dependencies-d8c77d0ffb ([ce5066b](https://www.github.com/JaCraig/Valkyrie/commit/ce5066b14f7e422951cb54b189aef3986cfff9f8))
+* add Copilot instructions for commit messages ([7246d0d](https://www.github.com/JaCraig/Valkyrie/commit/7246d0dea11303a3c958829e64107ef83358a565))
+
 <a name="5.0.28"></a>
 ## [5.0.28](https://www.github.com/JaCraig/Valkyrie/releases/tag/v5.0.28) (2026-05-15)
 
