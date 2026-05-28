@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="5.0.30"></a>
+## [5.0.30](https://www.github.com/JaCraig/Valkyrie/releases/tag/v5.0.30) (2026-05-28)
+
+### Bug Fixes
+
+* **workflows:** remove unnecessary secrets from YAML files ([2543812](https://www.github.com/JaCraig/Valkyrie/commit/2543812b729a3f894edc18867d91a4bf65245b9d))
+
+### Other
+
+* Merge pull request #221 from JaCraig/dependabot/nuget/Valkyrie.Tests/dependencies-3fec291e4a ([f0cdec1](https://www.github.com/JaCraig/Valkyrie/commit/f0cdec17868eaf9493dc5d283721781c1ea83e54))
+* Bump the dependencies group with 2 updates ([2dd2e28](https://www.github.com/JaCraig/Valkyrie/commit/2dd2e28e8ec3d171d0d70ef771e59b93cf5e7dea))
+
 <a name="5.0.29"></a>
 ## [5.0.29](https://www.github.com/JaCraig/Valkyrie/releases/tag/v5.0.29) (2026-05-20)
 
