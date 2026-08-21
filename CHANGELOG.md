@@ -2,6 +2,35 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="5.0.31"></a>
+## [5.0.31](https://www.github.com/JaCraig/Valkyrie/releases/tag/v5.0.31) (2026-08-21)
+
+### Bug Fixes
+
+* Bump BigBook from 6.2.15 to 6.2.16 ([5fa4343](https://www.github.com/JaCraig/Valkyrie/commit/5fa4343289ee36e5dedec41d4835d2130639f5b0))
+* Bump the dependencies group with 1 update ([10b6528](https://www.github.com/JaCraig/Valkyrie/commit/10b6528f974ee4df6dbaf4423ef2016d8b39b26f))
+* Bump the dependencies group with 1 update ([c84048c](https://www.github.com/JaCraig/Valkyrie/commit/c84048c54dcb37297dba1a363d46b70b70cb6268))
+* Bump the dependencies group with 1 update ([734f998](https://www.github.com/JaCraig/Valkyrie/commit/734f998f4166f3c4c9d13e26985b9c7deb515595))
+* Bump the dependencies group with 2 updates ([97dd484](https://www.github.com/JaCraig/Valkyrie/commit/97dd484f1dd6878e9b0e8092f62a5e2735c60f1d))
+* Bump the dependencies group with 2 updates ([f25eca2](https://www.github.com/JaCraig/Valkyrie/commit/f25eca267ca7fb9b590603c2a0dffef05344b3fb))
+
+### Other
+
+* Merge pull request #222 from JaCraig/dependabot/nuget/Valkyrie/dependencies-e1bae83de4 ([a6ffc4d](https://www.github.com/JaCraig/Valkyrie/commit/a6ffc4d78d55037b9de4aea25e85a71de71ed3ce))
+* Merge pull request #223 from JaCraig/dependabot/nuget/Valkyrie.Tests/dependencies-041891a2d4 ([7b1e646](https://www.github.com/JaCraig/Valkyrie/commit/7b1e6465ae19eda79236e3831dda1a98e9e9e23b))
+* Merge pull request #224 from JaCraig/dependabot/nuget/Valkyrie/dependencies-991ee26f7c ([1bad4fe](https://www.github.com/JaCraig/Valkyrie/commit/1bad4fed407380174f281b5b3793aec9aab564a6))
+* Merge pull request #225 from JaCraig/dependabot/nuget/Valkyrie.Tests/dependencies-407341980e ([b9ed9e9](https://www.github.com/JaCraig/Valkyrie/commit/b9ed9e9ac7d7412231bc07635989297e985108ba))
+* Merge pull request #226 from JaCraig/dependabot/nuget/Valkyrie/dependencies-5c1cd76f7e ([831334a](https://www.github.com/JaCraig/Valkyrie/commit/831334aa2decb71f7e06eefcdc37c98dba2e45af))
+* Merge pull request #227 from JaCraig/dependabot/nuget/Valkyrie.Tests/dependencies-4aa9edd91c ([22b002f](https://www.github.com/JaCraig/Valkyrie/commit/22b002fd35468bd0be9826ca1b4de2dbb6b90ed8))
+* Merge pull request #228 from JaCraig/dependabot/nuget/dot-config/dependencies-d580172a4f ([64ef5b3](https://www.github.com/JaCraig/Valkyrie/commit/64ef5b35775792c2a60c515f848d0f60b4de0e6b))
+* Merge pull request #229 from JaCraig/dependabot/nuget/Valkyrie/dependencies-637020aa5a ([d8d20ee](https://www.github.com/JaCraig/Valkyrie/commit/d8d20eebbb062307e303eaa01ff38bb18b5fd0ab))
+* Merge pull request #230 from JaCraig/dependabot/nuget/Valkyrie/dependencies-40d4d2aff0 ([f60bae0](https://www.github.com/JaCraig/Valkyrie/commit/f60bae090c895984073584e16c93938c572a1fe1))
+* Merge pull request #231 from JaCraig/dependabot/nuget/Valkyrie.Tests/dependencies-b5a8bd656f ([18509d0](https://www.github.com/JaCraig/Valkyrie/commit/18509d00694bf04dd23b48ff2e15d309b8d3e7b1))
+* Bump the dependencies group with 1 update ([e12675f](https://www.github.com/JaCraig/Valkyrie/commit/e12675f3aa0398e56ac557d22952867a10459cbb))
+* Bump the dependencies group with 1 update ([650c4f1](https://www.github.com/JaCraig/Valkyrie/commit/650c4f1db09637e636280702f27dd89a5c8a9511))
+* Bump the dependencies group with 1 update ([e3273a9](https://www.github.com/JaCraig/Valkyrie/commit/e3273a9818e545b90622682184e7203743811361))
+* Bump the dependencies group with 2 updates ([3697e2b](https://www.github.com/JaCraig/Valkyrie/commit/3697e2b86fdd71dbab139e4117ebad0588fe13b0))
+
 <a name="5.0.30"></a>
 ## [5.0.30](https://www.github.com/JaCraig/Valkyrie/releases/tag/v5.0.30) (2026-05-28)
 
