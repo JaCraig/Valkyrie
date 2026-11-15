@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="6.0.0"></a>
+## [6.0.0](https://www.github.com/JaCraig/Valkyrie/releases/tag/v6.0.0) (2026-11-15)
+
+### Features
+
+* **framework:** align .NET targets and tooling ([e6e821e](https://www.github.com/JaCraig/Valkyrie/commit/e6e821e5dfe14e1e5658a51f3adff8f93783316b))
+
+### Bug Fixes
+
+* Bump the dependencies group with 1 update ([7738d11](https://www.github.com/JaCraig/Valkyrie/commit/7738d112389a6e532b999892852add93e86925d9))
+
+### Breaking Changes
+
+* **framework:** align .NET targets and tooling ([e6e821e](https://www.github.com/JaCraig/Valkyrie/commit/e6e821e5dfe14e1e5658a51f3adff8f93783316b))
+
+### Other
+
+* Merge pull request #240 from JaCraig/dependabot/nuget/Valkyrie/dependencies-2186410a91 ([aafcfc5](https://www.github.com/JaCraig/Valkyrie/commit/aafcfc53d2b065c02573b894606fe7f557ce01cc))
+
 <a name="5.0.32"></a>
 ## [5.0.32](https://www.github.com/JaCraig/Valkyrie/releases/tag/v5.0.32) (2026-11-08)
 
